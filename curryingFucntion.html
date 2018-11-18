@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    // ES5语法
+    // function sub (fn) {
+    //     let arg = Array.from(arguments).slice(1)
+    //     return function () {
+    //       return  fn.apply(this,[...arg,...arguments])
+    //     }
+    // }
+    // function currying (fn,length) {
+    //     return function () {
+    //         let extent = length || fn.length
+    //         if(arguments.length < extent) {
+    //             return currying(sub.apply(this,[fn,...arguments]),extent - arguments.length)
+    //         }else{
+    //             return fn.apply(this,arguments)
+    //         }
+    //     }
+    //
+    // }
+    // ES6语法
+    let currying = (fn) =>
+        sub = (...arg) => {
+            return fn.length === arg.length ?
+                fn(...arg) : (args) => sub(...arg,args)
+
+        }
+
+    let fn = currying (function(a,b,c){ return [a,b,c]})
+    console.log(fn(1,2,3))
+</script>
+</html>
