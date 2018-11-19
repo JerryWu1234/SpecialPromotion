@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>探索几种表单验证最佳实践方式</title>
+</head>
+<body>
+<form action="#" id="registerForm" method="post">
+    <div class="form-group">
+        <label for="user">请输入用户名:</label>
+        <input type="text" class="form-control" id="user" name="userName">
+    </div>
+    <div class="form-group">
+        <label for="pwd">请输入密码:</label>
+        <input type="password" class="form-control" id="pwd" name="passWord">
+    </div>
+    <div class="form-group">
+        <label for="phone">请输入手机号码:</label>
+        <input type="tel" class="form-control" id="phone" name="phoneNumber">
+    </div>
+    <div class="form-group">
+        <label for="email">请输入邮箱:</label>
+        <input type="text" class="form-control" id="email" name="emailAddress">
+    </div>
+    <button type="button" class="btn btn-default">Submit</button>
+</form>
+</body>
+<script>
+    let strategies = {
+        isNonEmpty(val,error){
+           return val !== ''? void 0 : error
+        },
+        isPhone(val,error){
+            return !/^1(2|3|4|5|6|7|8|9){9}$/.test(val) ? void 0 : error
+        },
+        minLength(val,length,error){
+            return length < val.length ? void 0 : error
+        }
+    }
+    class validator {
+        constructor(){
+            this.catch = []
+        }
+        addCheck (dom,rules) {
+            for (let x of rules){
+                let  name = x.strategy.split(':')
+                this.catch.push(()=>{
+                    let type = name.shift()
+                    name.push(x.errorMsg)
+                   return strategies[type](dom.value,...name)
+                })
+            }
+        }
+        start () {
+            for (let func of this.catch) {
+                let error = func()
+                if(error){
+                    return error
+                }
+            }
+        }
+    }
+
+    let user = document.querySelector('#user')
+    let pwd = document.querySelector('#pwd')
+    let phone = document.querySelector('#phone')
+    let email = document.querySelector('#email')
+
+    const validatorFunc = () => {
+        let check = new validator()
+        check.addCheck(user, [{
+            strategy: 'isNonEmpty',
+            errorMsg: '用户名不能为空！'
+        }, {
+            strategy: 'minLength:6',
+            errorMsg: '用户名长度不能小于6位！'
+        }])
+        return check.start()
+    }
+
+
+
+
+    let registerForm = document.querySelector('.btn-default')
+    registerForm.addEventListener('click',function(){
+        debugger
+        let error = validatorFunc()
+        if(error !== ''){
+            alert(error)
+        }
+    },false)
+</script>
+</html>
