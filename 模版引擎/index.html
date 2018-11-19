@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .ccccc{
+      width: 406px;
+      height: 450px;
+    }
+  </style>
+</head>
+<body>
+  <div class="ccccc">
+    <iframe class="ccccc" src="./teacher-hot-question.html" ></iframe>
+  </div>
+  <div id="content"></div>
+</body>
+<script>
+  window.addEventListener("message", function( event ) {
+    // 把父窗口发送过来的数据显示在子窗口中
+    console.log(event.data)
+  }, false );
+</script>
+</html>
