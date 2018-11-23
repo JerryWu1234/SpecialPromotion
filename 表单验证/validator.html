@@ -27,68 +27,106 @@
 </form>
 </body>
 <script>
+    // let strategies = {
+    //     isNonEmpty(val,error){
+    //        return val !== ''? void 0 : error
+    //     },
+    //     isPhone(val,error){
+    //         return !/^1(2|3|4|5|6|7|8|9){9}$/.test(val) ? void 0 : error
+    //     },
+    //     minLength(val,length,error){
+    //         return length < val.length ? void 0 : error
+    //     }
+    // }
+    // class validator {
+    //     constructor(){
+    //         this.catch = []
+    //     }
+    //     addCheck (dom,rules) {
+    //         for (let x of rules){
+    //             let  name = x.strategy.split(':')
+    //             this.catch.push(()=>{
+    //                 let type = name.shift()
+    //                 name.push(x.errorMsg)
+    //                return strategies[type](dom.value,...name)
+    //             })
+    //         }
+    //     }
+    //     start () {
+    //         for (let func of this.catch) {
+    //             let error = func()
+    //             if(error){
+    //                 return error
+    //             }
+    //         }
+    //     }
+    // }
+    //
+    // let user = document.querySelector('#user')
+    // let pwd = document.querySelector('#pwd')
+    // let phone = document.querySelector('#phone')
+    // let email = document.querySelector('#email')
+    //
+    // const validatorFunc = () => {
+    //     let check = new validator()
+    //     check.addCheck(user, [{
+    //         strategy: 'isNonEmpty',
+    //         errorMsg: '用户名不能为空！'
+    //     }, {
+    //         strategy: 'minLength:6',
+    //         errorMsg: '用户名长度不能小于6位！'
+    //     }])
+    //     return check.start()
+    // }
+    //
+    //
+    // let registerForm = document.querySelector('.btn-default')
+    // registerForm.addEventListener('click',function(){
+    //     let error = validatorFunc()
+    //     if(error !== ''){
+    //         alert(error)
+    //     }
+    // },false)
+
     let strategies = {
-        isNonEmpty(val,error){
-           return val !== ''? void 0 : error
-        },
-        isPhone(val,error){
-            return !/^1(2|3|4|5|6|7|8|9){9}$/.test(val) ? void 0 : error
-        },
-        minLength(val,length,error){
-            return length < val.length ? void 0 : error
-        }
-    }
-    class validator {
-        constructor(){
-            this.catch = []
-        }
-        addCheck (dom,rules) {
-            for (let x of rules){
-                let  name = x.strategy.split(':')
-                this.catch.push(()=>{
-                    let type = name.shift()
-                    name.push(x.errorMsg)
-                   return strategies[type](dom.value,...name)
-                })
+        isNonEmpty:{
+            error:'不能为空',
+            func(val){
+                return val !== ''? void 0 : this.error
             }
-        }
-        start () {
-            for (let func of this.catch) {
-                let error = func()
-                if(error){
-                    return error
+        },
+        isPhone:{
+            error:'不是手机号码',
+            func(val){return /^1(2|3|4|5|6|7|8|9){9}$/.test(val) ? void 0 : this.error}
+        },
+
+    }
+    
+     let checkInput = (obj) =>{
+       return new Proxy(obj,{
+            set(target,key,value){
+                if(target[key].func(value) === undefined){
+                    return true
+                }else{
+                    let error = target[key].func(value)
+                    throw new Error(error)
                 }
             }
-        }
+        })
     }
-
+    let func = checkInput(strategies)
     let user = document.querySelector('#user')
-    let pwd = document.querySelector('#pwd')
     let phone = document.querySelector('#phone')
-    let email = document.querySelector('#email')
-
-    const validatorFunc = () => {
-        let check = new validator()
-        check.addCheck(user, [{
-            strategy: 'isNonEmpty',
-            errorMsg: '用户名不能为空！'
-        }, {
-            strategy: 'minLength:6',
-            errorMsg: '用户名长度不能小于6位！'
-        }])
-        return check.start()
-    }
-
-
-
-
     let registerForm = document.querySelector('.btn-default')
     registerForm.addEventListener('click',function(){
-        debugger
-        let error = validatorFunc()
-        if(error !== ''){
-            alert(error)
+        try{
+            func.isNonEmpty = user.value
+            func.isPhone = phone.value
+
+        }catch (err) {
+            alert(err.message)
         }
+
     },false)
 </script>
 </html>
