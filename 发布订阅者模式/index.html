@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    class events {
+        constructor () {
+            this.events = {}
+        }
+        emit (name, callback) {
+            let events = this.events
+            if(!events[name]){
+                events[name] = []
+            }
+            events[name].push(callback)
+        }
+        onEvent (name,...val) {
+            let events = this.events
+            if(!events[name]){
+                return false
+            }
+            events[name].forEach((item,index) =>{
+                item.apply(this,val)
+            })
+        }
+        remove (name,funName) {
+            let events = this.events
+            debugger
+            if(!events[name]){
+                return false
+            }
+            if(!funName){
+                events[name].length = 0
+            }else{
+                events[name].forEach((item,index) =>{
+                    if(item.toString() === funName.toString()){
+                        console.log(events[name])
+                        events[name].splice(index,1)
+                    }
+                })
+            }
+
+        }
+    }
+    let Event = new events()
+    let f1 = (name)=>{console.log(name)}
+    let f2 = (val)=>{console.log(val)}
+    Event.emit('name',f1)
+    Event.emit('name',f2)
+    Event.remove('name',f2)
+    Event.onEvent('name','sds')
+
+</script>
+</html>
