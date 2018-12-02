@@ -43,22 +43,46 @@
      * @description Object
      * @method All
      **/
+    Object.assign() // 通过复制一个或多个对象来创建一个新的对象 《浅拷贝》
+    Object.create() // 使用指定的原型对象和属性创建一个新对象。
+    Object.is() // 比较两个值是否相同。所有 NaN 值都相等（这与==和===不同）
+    Object.getPrototypeOf() // 返回指定对象的原型对象
+    Object.keys() // 返回一个包含所有给定对象自身可枚举属性名称的数组。
+    Object.values() // 返回给定对象自身可枚举值的数组。
 
 
-    /**
-     * @description function
-     * @method All
-     **/
 
     /**
      * @description Array
      * @method All
      **/
+    let array = [1,2,3,4]
+    Array.from() // 类数组转化为数组
+    Array.isArray() // 用来判断某个变量是否是一个数组对象。
+    array.pop() // 删除数组的最后一个元素，并返回这个元素
+    array.push() // 在数组的末尾增加一个或多个元素，并返回数组的新长度。
+    array.reverse() // 颠倒数组中元素的排列顺序
+    array.shift() // 删除数组的第一个元素，并返回这个元素。
+    array.splice() // 在任意的位置给数组添加或删除任意个元素。
+    array.unshift() // 在数组的开头增加一个或多个元素，并返回数组的新长度。
+    array.concat() // 连接2个数组或多个数组 ~不会改变原数组
+    array.slice() // 方法可从已有的数组中返回选定的元素。~不会改变原来数组
+    array.join() // 连接所有数组元素组成一个字符串 ~不会改变原数组
+    array.toString() // 返回一个由所有数组元素组合而成的字符串
+    array.indexOf() // 返回数组中第一个与指定值相等的元素的索引
+    array.lastIndexOf() // 返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引
+    array.includes() // 表示某个数组是否包含给定的值
+    array.flat() // [1, 2, [3, 4]].flat() [1, 2, 3, 4] 将嵌套的数组“拉平”
+
 
     /**
      * @description Number
      * @method All
      **/
+    let number = 123456
+    number.parseInt() //函数解析一个字符串参数，并返回一个指定基数的整数
+    number.parseFloat() // 方法可以把一个字符串解析成浮点数
+    number.isInteger() // 确定传递的值类型是“number”，且是整数。
 
 </script>
 </html>
