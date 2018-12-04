@@ -15,7 +15,7 @@ export default {
         return {
             verticalOffset: 0,
             autoClose: 3000,
-            height: 0
+            height: 16
         }
     }
 }
