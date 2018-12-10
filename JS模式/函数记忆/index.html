@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    let memory = fun => {
+      let memory = (...arg) => {
+        let obj = memory.obj
+        if (!obj[arg]) {
+          obj[arg] = fun.apply(this, arg)
+        }
+        return obj[arg]
+      }
+      memory.obj = {}
+      return memory
+    }
+    let fun = memory((a, b, c) => {
+      return a + b + c
+    })
+    debugger
+    console.log(fun(1, 2, 3))
+  </script>
+</html>
