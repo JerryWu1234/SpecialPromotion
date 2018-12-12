@@ -1,16 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body></body>
+  <script>
+    /**
+     * @name 函数式对象
+     * let func = function(){
+     *  this.name = 1
+     * }
+     * func.name = 2
+     * @description func对象函数会优先读取func.name上的属性，输出func
+     *
+     *
+     * @name function(){}中的return终止函数执行
+     * **/
 
-</body>
-<script>
     /**
      * @description String
      * @method
@@ -23,21 +35,19 @@
     string.endsWith('f') // 返回布尔值，表示参数字符串是否在原字符串的头部。
     string.trim() // 从字符串的开始和结尾去除空格
     string.charAt(4) // 返回指定位置的字符。
-    string.concat('2','23') // 方法用于连接两个或多个字符串。
-    string.indexOf('abc',1) // 返回字符串值在字符串中首次出现的位置。第二个参数规定在字符串中开始检索的位置
-    string.lastIndexOf('abc',2) // 方法可返回一个指定的字符串值最后出现的位置，在一个字符串中的指定位置从后向前搜索
+    string.concat('2', '23') // 方法用于连接两个或多个字符串。
+    string.indexOf('abc', 1) // 返回字符串值在字符串中首次出现的位置。第二个参数规定在字符串中开始检索的位置
+    string.lastIndexOf('abc', 2) // 方法可返回一个指定的字符串值最后出现的位置，在一个字符串中的指定位置从后向前搜索
     string.match('abc') // 在字符串内检索指定的值 没有返回null
     string.padStart(5, 'ab') // 在当前字符串头部填充指定的字符串， 直到达到指定的长度。 返回一个新的字符串
-    string.padEnd(5,'ad') // 在当前字符串尾部填充指定的字符串， 直到达到指定的长度。 返回一个新的字符串。
+    string.padEnd(5, 'ad') // 在当前字符串尾部填充指定的字符串， 直到达到指定的长度。 返回一个新的字符串。
     string.repeat(2) // 返回指定重复次数的由元素组成的字符串对象。
-    string.replace('regexp','function') // 字符串中用一些字符替换另一些字符，或替换一个与正则表达式匹配的子串。
+    string.replace('regexp', 'function') // 字符串中用一些字符替换另一些字符，或替换一个与正则表达式匹配的子串。
     string.search(/\s/) // 对正则表达式和指定字符串进行匹配搜索，返回第一个出现的匹配项的下标。
-    string.slice(1,2) //  摘取一个字符串区域，返回一个新的字符串。
-    string.split('',3) //方法用于把一个字符串分割成字符串数组。第二个参数规定数组的长度
-    string.substring(1,3)//  摘取一个字符串区域，返回一个新的字符串。 注意：不接受负数
+    string.slice(1, 2) //  摘取一个字符串区域，返回一个新的字符串。
+    string.split('', 3) //方法用于把一个字符串分割成字符串数组。第二个参数规定数组的长度
+    string.substring(1, 3) //  摘取一个字符串区域，返回一个新的字符串。 注意：不接受负数
     string.toString() // 方法返回字符串。
-
-
 
     /**
      * @description Object
@@ -50,14 +60,11 @@
     Object.keys() // 返回一个包含所有给定对象自身可枚举属性名称的数组。
     Object.values() // 返回给定对象自身可枚举值的数组。
 
-
-
-
     /**
      * @description Array
      * @method All
      **/
-    let array = [1,2,3,4]
+    let array = [1, 2, 3, 4]
     Array.from() // 类数组转化为数组
     Array.isArray() // 用来判断某个变量是否是一个数组对象。
     array.pop() // 删除数组的最后一个元素，并返回这个元素
@@ -76,7 +83,6 @@
     array.includes() // 表示某个数组是否包含给定的值
     array.flat() // [1, 2, [3, 4]].flat() [1, 2, 3, 4] 将嵌套的数组“拉平”
 
-
     /**
      * @description Number
      * @method All
@@ -85,6 +91,5 @@
     number.parseInt() //函数解析一个字符串参数，并返回一个指定基数的整数
     number.parseFloat() // 方法可以把一个字符串解析成浮点数
     number.isInteger() // 确定传递的值类型是“number”，且是整数。
-
-</script>
+  </script>
 </html>
