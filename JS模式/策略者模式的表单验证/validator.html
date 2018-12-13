@@ -32,33 +32,6 @@
     </form>
   </body>
   <script>
-    let inputElement = document.querySelector('#user')
-    var inputLock = false
-    function dos(inputElement) {
-      var regex = /[^1-9a-zA-Z]/g
-      inputElement.value = inputElement.value.replace(regex, '')
-    }
-
-    inputElement.addEventListener('compositionstart', function() {
-      inputLock = true
-    })
-
-    inputElement.addEventListener('compositionend', function(event) {
-      inputLock = false
-      dos(event.target)
-    })
-
-    inputElement.addEventListener('compositionupdate', function(event) {
-      console.log(event)
-      dos(event.target)
-    })
-
-    inputElement.addEventListener('input', function(event) {
-      if (!inputLock) {
-        dos(event.target)
-        event.returnValue = false
-      }
-    })
     // let strategies = {
     //     isNonEmpty(val,error){
     //        return val !== ''? void 0 : error

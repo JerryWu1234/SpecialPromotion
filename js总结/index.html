@@ -22,7 +22,7 @@
      *
      * @name function(){}中的return终止函数执行
      * **/
-      
+
     /**
      * @description String
      * @method
@@ -81,7 +81,10 @@
     array.indexOf() // 返回数组中第一个与指定值相等的元素的索引
     array.lastIndexOf() // 返回数组中最后一个（从右边数第一个）与指定值相等的元素的索引
     array.includes() // 表示某个数组是否包含给定的值
-    array.flat() // [1, 2, [3, 4]].flat() [1, 2, 3, 4] 将嵌套的数组“拉平”
+    array.flat() // [1, 2, [3, 4]].flat() [1, 2, 3, 4] 将嵌套的数组“拉平” 空位自动去除
+    Object.keys([1, 2, 3, 4]) // 获取数组到key 结果是一个数组
+    Object.values([1, 2, 3]) // 获取数组到values 结果是一个数组
+    Array.of(1, 2, 3) // 组合成数组 [1,2,3]
 
     /**
      * @description Number
