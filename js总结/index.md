@@ -1,6 +1,8 @@
 # js 心得
 
-## 函数式对象
+###js函数方法
+
+#### 函数式对象
 
 ```js
 let func = function() {
@@ -22,13 +24,13 @@ function() {
 
 ---
 
-## 函数中的 return
+#### 函数中的 return
 
 _1.函数中的 return 会中断下面的执行_
 
 ---
 
-## compositionstart compositionend compositionupdate 的区别
+#### compositionstart compositionend compositionupdate 的区别
 
  事件触发于一段文字的输入之前
 
@@ -46,7 +48,7 @@ addEventListener('compositionend', event => {})
 `event.data`当前拼音收入的文字
 `event.type`当前触发的哪个事件
 
-##  插件中不同环境的配置
+####  插件中不同环境的配置
 
 不同环境下的  全局变量
 
@@ -74,12 +76,125 @@ if (typeof exports != 'undefined' && !exports.nodeType) {
 
 ---
 
-## 阻止 in 遍历到原型链到方法
+#### 阻止 in 遍历到原型链到方法
 
 ```js
 object.hasOwnProperty(name)
 ```
 
-##箭头函数
+####箭头函数
 
 箭头函数因为默认指向最外层作用域，在写带 this 作用域的函数时尽量用普通函数
+
+
+####bind函数的写法
+
+```js
+
+const bind = (fn, context, ...arg) => (..args) => (fn.apply(context,[...arg,...args]))
+```
+
+---
+---
+---
+###js DOM操作
+
+####区分是移动端还是桌面
+
+```js
+const detectDeviceType = () =>
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+    ? 'Mobile'
+    : 'Desktop';
+```
+
+
+####父Dom中是否包含子dom
+
+```js
+
+const elementContains = (parent, child) => parent !== child && parent.contains(child);
+
+```
+
+####获取指定css值
+
+```js
+
+const getStyle = (el,className) => getComputedStyle(el)[className]
+
+```
+
+#### 检验class是否存在
+
+```js
+    
+    hasClass  =  (el, className) => el.classList.contains(className);
+    
+```
+
+#### dom元素插入
+
+```js
+
+const insertAfter = (el,htmlString) => el.insertAdjacentHTML('afterend',htmlString)
+
+```
+```
+<!-- beforebegin --> 
+<p> 
+<!-- afterbegin -->
+foo
+<!-- beforeend -->
+</p>
+<!-- afterend -->
+```
+insertAdjacentHTML函数的4个参数
+
+
+####监听dom的变化
+
+```js
+const observeMutations = (element, callback, options) => {
+  const observer = new MutationObserver(mutations => mutations.forEach(m => callback(m)));
+  observer.observe(
+    element,
+    Object.assign(
+      {
+        childList: true, //观察目标节点的子节点的新增和删除。
+        attributes: true, //观察目标节点的属性节点(新增或删除了某个属性,以及某个属性的属性值发生了变化)。
+        attributeOldValue: true, // 在attributes属性已经设为true的前提下, 将发生变化的属性节点之前的属性值记录下来(记录到下面MutationRecord对象的oldValue属性中)
+        characterData: true, // 如果目标节点为characterData节点(一种抽象接口,具体可以为文本节点,注释节点,以及处理指令节点)时,也要观察该节点的文本内容是否发生变化
+        characterDataOldValue: true, // 在characterData属性已经设为true的前提下,将发生变化characterData节点之前的文本内容记录下来(记录到下面MutationRecord对象的oldValue属性中)
+        subtree: true //观察目标节点的所有后代节点(观察目标节点所包含的整棵DOM树上的上述三种节点变化)
+      },
+      options
+    )
+  );
+  return observer;
+};
+
+const obs = observeMutations(document, console.log); // Logs all mutations that happen on the page
+obs.disconnect(); 
+```
+####指定子元素添加添加事件
+
+```js
+e.target.matches('a.btn')
+```
+
+####设置样式
+
+```js
+
+const setStyle = (el, className, val) => (el.style[className] = val)
+
+```
+
+#### 切换className
+
+```js
+
+const toggleClass = (el, className) => el.classList.toggle(className)
+
+```

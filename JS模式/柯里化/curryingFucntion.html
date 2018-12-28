@@ -30,14 +30,15 @@
     //
     // }
     // ES6语法
+
     let currying = (fn) =>
         sub = (...arg) => {
             return fn.length === arg.length ?
-                fn(...arg) : (args) => sub(...arg,args)
+                fn(...arg) : (args) => sub.bind(null,...arg,args)
 
         }
 
     let fn = currying (function(a,b,c){ return [a,b,c]})
-    console.log(fn(1,2,3))
+    console.log(fn(1)(2)(3))
 </script>
 </html>

@@ -31,7 +31,7 @@
     function fun() {
         console.log(1)
     }
-    let f = fun.before(()=>{console.log(2)}).after(()=>{console.log(3)})
+    let f = fun.after(()=>{console.log(2)}).before(()=>{console.log(3)})
     f()
 </script>
 </html>

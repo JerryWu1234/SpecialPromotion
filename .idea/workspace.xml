@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js总结/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS模式/AOP切面编程/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS模式/AOP切面编程/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS模式/柯里化/curryingFucntion.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS模式/柯里化/curryingFucntion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js总结/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,17 +23,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js提升/输出所有的排序可能/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="28" />
+            <state>
+              <caret column="15" selection-start-column="14" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dome/index 下午1.41.59.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../dome/index 下午1.41.59.html">
+        <entry file="file://$PROJECT_DIR$/JS模式/柯里化/curryingFucntion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="546">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS模式/AOP切面编程/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -41,7 +60,13 @@
         <entry file="file://$PROJECT_DIR$/js总结/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="-185">
+                <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+                <folding>
+                  <element signature="e#9#19#0" />
+                  <element signature="e#238#254#0" />
+                </folding>
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -50,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
+            <state relative-caret-position="808">
               <caret line="73" column="16" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="16" />
             </state>
           </provider>
@@ -66,15 +91,18 @@
       <list>
         <option value="$PROJECT_DIR$/js提升/输出所有的排序可能/index.html" />
         <option value="$PROJECT_DIR$/js总结/index.html" />
+        <option value="$PROJECT_DIR$/js总结/index.md" />
         <option value="$PROJECT_DIR$/../dome/index 下午1.41.59.html" />
+        <option value="$PROJECT_DIR$/JS模式/AOP切面编程/index.html" />
+        <option value="$PROJECT_DIR$/JS模式/柯里化/curryingFucntion.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1650" />
-    <option name="y" value="193" />
-    <option name="width" value="1440" />
-    <option name="height" value="801" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="981" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -82,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,11 +123,26 @@
               <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
               <item name="js总结" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
+              <item name="js提升" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
+              <item name="JS模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
+              <item name="JS模式" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP切面编程" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,16 +191,18 @@
       <workItem from="1545873884046" duration="11299000" />
       <workItem from="1545920000462" duration="472000" />
       <workItem from="1545962192569" duration="18000" />
+      <workItem from="1545976622818" duration="8754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15023000" />
+    <option name="totallyTimeSpent" value="23777000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1650" y="193" width="1440" height="801" extended-state="0" />
+    <frame x="1440" y="23" width="1920" height="981" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.1864139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50211567" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,33 +224,65 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS模式/AOP切面编程/index.html</url>
+          <line>34</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js提升/输出所有的排序可能/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js总结/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="-185">
+            <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+            <folding>
+              <element signature="e#9#19#0" />
+              <element signature="e#238#254#0" />
+            </folding>
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
+        <state relative-caret-position="808">
           <caret line="73" column="16" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dome/index 下午1.41.59.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js提升/输出所有的排序可能/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS模式/AOP切面编程/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS模式/柯里化/curryingFucntion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
