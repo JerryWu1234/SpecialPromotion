@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/发布订阅者模式/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/发布订阅者模式/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/发布订阅者模式/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/发布订阅者模式/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/发布订阅者模式/.idea/发布订阅者模式.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/柯里化/curryingFucntion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/.idea/表单验证.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写Js/Js模式/策略者模式的表单验证/validator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js总结/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/index.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,23 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js总结/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1393">
-                <caret line="99" selection-start-line="99" selection-end-line="99" />
+              <first_editor relative-caret-position="458">
+                <caret line="112" column="51" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state>
+              <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS运用/throttle函数/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -71,8 +70,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js提升/输出所有的排序可能/index.html" />
-        <option value="$PROJECT_DIR$/js总结/index.html" />
-        <option value="$PROJECT_DIR$/js总结/index.md" />
         <option value="$PROJECT_DIR$/JS模式/AOP切面编程/index.html" />
         <option value="$PROJECT_DIR$/js提升/once函数/index.html" />
         <option value="$PROJECT_DIR$/js提升/debounce函数/index.html" />
@@ -81,10 +78,12 @@
         <option value="$PROJECT_DIR$/../dome/index 下午1.41.59.html" />
         <option value="$PROJECT_DIR$/js提升/密码位数隐藏/index.html" />
         <option value="$PROJECT_DIR$/js提升/网址获取参数/index.html" />
+        <option value="$PROJECT_DIR$/js总结/index.html" />
+        <option value="$PROJECT_DIR$/js总结/index.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="801" />
@@ -95,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,15 +170,23 @@
       <workItem from="1546407099839" duration="45000" />
       <workItem from="1546408292087" duration="8722000" />
       <workItem from="1546480503631" duration="6000" />
-      <workItem from="1546772192573" duration="1079000" />
+      <workItem from="1546772192573" duration="1160000" />
+      <workItem from="1546784977624" duration="618000" />
+      <workItem from="1546826472960" duration="352000" />
+      <workItem from="1546827146525" duration="182000" />
+      <workItem from="1546841347266" duration="429000" />
+      <workItem from="1546851436500" duration="562000" />
+      <workItem from="1547022816335" duration="1613000" />
+      <workItem from="1547084349101" duration="458000" />
+      <workItem from="1547086636159" duration="1376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45346000" />
+    <option name="totallyTimeSpent" value="51017000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.18604651" />
@@ -194,7 +201,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -216,13 +223,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js提升/密码位数隐藏/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js提升/密码位数隐藏/index.html" />
     <entry file="file://$PROJECT_DIR$/../dome/index 下午1.41.59.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -230,13 +231,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js提升/输出所有的排序可能/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js提升/输出所有的排序可能/index.html" />
     <entry file="file://$PROJECT_DIR$/Js模式/柯里化/curryingFucntion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -244,27 +239,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js提升/once函数/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js提升/debounce函数/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js提升/throttle函数/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js提升/once函数/index.html" />
+    <entry file="file://$PROJECT_DIR$/js提升/debounce函数/index.html" />
+    <entry file="file://$PROJECT_DIR$/js提升/throttle函数/index.html" />
     <entry file="file://$PROJECT_DIR$/Js模式/AOP切面编程/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -272,47 +249,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js提升/网址获取参数/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="13" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3090" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/.idea/js总结.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js提升/网址获取参数/index.html" />
+    <entry file="file://$PROJECT_DIR$/js总结/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/js总结/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/js总结/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/js总结/.idea/workspace.xml" />
+    <entry file="file://$PROJECT_DIR$/js总结/.idea/js总结.iml" />
     <entry file="file://$PROJECT_DIR$/JS运用/throttle函数/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1393">
-            <caret line="99" selection-start-line="99" selection-end-line="99" />
-          </first_editor>
-          <second_editor />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state>
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="458">
+            <caret line="112" column="51" selection-start-line="112" selection-start-column="51" selection-end-line="112" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

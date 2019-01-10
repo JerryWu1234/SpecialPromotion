@@ -94,6 +94,24 @@ object.hasOwnProperty(name)
 const bind = (fn, context, ...arg) => (..args) => (fn.apply(context,[...arg,...args]))
 ```
 
+####js的异步时间的
+
+```js
+宏任务：包括整体代码script，setTimeout，setInterval
+微任务：Promise.then(非new Promise)，process.nextTick(node中)
+
+事件循环，先执行宏任务，
+其中同步任务立即执行，异步任务，
+加载到对应的的Event Queue中(setTimeout等加入宏任务的Event Queue，Promise.then加入微任务的Event Queue)，
+所有同步宏任务执行完毕后，如果发现微任务的Event Queue中有未执行的任务，会先执行其中的任务，这样算是完成了一次事件循环。
+接下来查看宏任务的Event Queue中是否有未执行的任务，有的话，就开始第二轮事件循环，依此类推。
+```
+
+####Vue的props
+
+父组件传给子组件值时（对象，数组），子组件修改数据父组件同时会修改。
+传给子组件如果是字符串，数字类型，子组件修改需要用this.$emit('update:val')修改
+
 ---
 ---
 ---
@@ -198,3 +216,4 @@ const setStyle = (el, className, val) => (el.style[className] = val)
 const toggleClass = (el, className) => el.classList.toggle(className)
 
 ```
+
