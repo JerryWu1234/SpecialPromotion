@@ -115,6 +115,9 @@ const bind = (fn, context, ...arg) => (..args) => (fn.apply(context,[...arg,...a
 ---
 ---
 ---
+
+
+
 ###js DOM操作
 
 ####区分是移动端还是桌面
@@ -140,6 +143,7 @@ const elementContains = (parent, child) => parent !== child && parent.contains(c
 ```js
 
 const getStyle = (el,className) => getComputedStyle(el)[className]
+
 
 ```
 
