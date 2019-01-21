@@ -221,3 +221,11 @@ const toggleClass = (el, className) => el.classList.toggle(className)
 
 ```
 
+#### 页面渲染
+
+1.局部变量访问比全局快
+2.对象嵌套越深需要查找的时间越久，原型链亦是如此
+3.操作DOM造成对重绘重排对代价非常高
+3.避免使用in去遍历，因为会遍历原型上对方法
+4.借助webpack等工具对静态资源进行优化
+
