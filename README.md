@@ -1,6 +1,6 @@
 # SpecialPromotion
-用于提升个人js思想
 
+**js部分的心得**
 
 [js函数方法的一些总结](https://github.com/wulinsheng123/SpecialPromotion/issues/1)
 

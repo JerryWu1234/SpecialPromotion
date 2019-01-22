@@ -71,6 +71,7 @@ function resolve(self, newValue) {
         if(then === IS_ERROR) {
             return reject(self, LAST_ERROR)
         }
+        // 当 then 返回当是一个 promise
         if(then === self.then && newValue instanceof Promise){
             self._state = 3
             self._value = newValue
@@ -88,8 +89,8 @@ function resolve(self, newValue) {
 }
 
 function finale (self) {
+// 主要把指向当子this中当_deferreds复制给父this
     if (self._deferredState === 1) {
-        debugger
         handle(self, self._deferreds);
         self._deferreds = null;
     }
@@ -131,9 +132,11 @@ Promise.prototype.then = function(onFulfilld, onReject) {
 }
 
 function handle(self, deferred) {
+    // 主要把指向当子this中当_deferreds复制给父this
     while (self._state === 3) {
         self = self._value;
     }
+    //默认返回then中this._state是0，并把this赋值给_deferreds
     if(self._state === 0) {
         if(self._deferredState === 0) {
             self._deferredState = 1
