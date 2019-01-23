@@ -145,6 +145,7 @@ export default {
  
  3.在vue-popper.js对showPopper的值进行监听，一旦showPopper的值为true时执行this.createpopper()，反之则摧毁
  
- 4.在this.createpopper()函数中把 this.$refs.popper和 this.referenceElm传过去就好了
+ 4.在this.createpopper()函数中popper组件需要2个参数然后把 this.$refs.popper和 this.referenceElm传过去就好了
+
  
 
