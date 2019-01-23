@@ -8,9 +8,7 @@ element ui的中的 toolpic组件 在 **packages/tooltip**目录下。
 这个组件核心部分是 ![avatar](./1548154528890.jpg)
 
 
-toolpic 分别涉略了。
-
-《**main.js vue-popper.js popup.js vdom.js dom.js**》等js文件
+toolpic 分别涉略了。《**main.js vue-popper.js popup.js vdom.js dom.js**》等js文件
 
 核心用到到js差不多就是main.js，vue-popper.js
 
@@ -147,5 +145,5 @@ export default {
  
  4.在this.createpopper()函数中popper组件需要2个参数然后把 this.$refs.popper和 this.referenceElm传过去就好了
 
- 
+PS:只是简单还原了这个功能，具体细节麻烦请下载elementUI 
 
