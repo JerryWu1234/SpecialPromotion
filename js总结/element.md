@@ -92,7 +92,7 @@ main.js进行了简化
   <el-button>上左</el-button>
  </el-tooltip>
 ```
-render中return的就是**<el-button>上左</el-button>** 这快内容
+render中return的就是<el-button>上左</el-button>这快内容
 
 
 
