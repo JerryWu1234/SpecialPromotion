@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS运用/dom的操作/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js总结/element.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js总结/element.md" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/element.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue组件/notification/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue组件/notification/notification.vue">
           <provider selected="true" editor-type-id="text-editor" />
@@ -71,12 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/element.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="558">
-                <caret line="131" column="19" lean-forward="true" selection-end-line="146" />
+              <first_editor relative-caret-position="362">
+                <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="187">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -210,10 +209,10 @@
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.js" />
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.html" />
         <option value="$PROJECT_DIR$/js总结/index.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Promise/Promise.js" />
         <option value="$PROJECT_DIR$/JS运用/dom的操作/dom.js" />
         <option value="$PROJECT_DIR$/js总结/element.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -236,22 +235,6 @@
             <path>
               <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="JS运用" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="JS运用" type="462c0819:PsiDirectoryNode" />
-              <item name="dom的操作" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
@@ -382,12 +365,12 @@
       <workItem from="1548143686587" duration="755000" />
       <workItem from="1548151491048" duration="98000" />
       <workItem from="1548151631581" duration="4465000" />
-      <workItem from="1548209083983" duration="4791000" />
+      <workItem from="1548209083983" duration="5097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106867000" />
+    <option name="totallyTimeSpent" value="107173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
@@ -508,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/books/编写高质量的188个建议.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -629,8 +602,18 @@
     <entry file="file://$PROJECT_DIR$/js总结/element.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="558">
-            <caret line="131" column="19" lean-forward="true" selection-end-line="146" />
+          <first_editor relative-caret-position="362">
+            <caret line="97" column="3" selection-start-line="97" selection-start-column="3" selection-end-line="97" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
