@@ -10,15 +10,14 @@ element ui的中的 toolpic组件 在 **packages/tooltip**目录下。
 
 toolpic 分别涉略了。《**main.js vue-popper.js popup.js vdom.js dom.js**》等js文件
 
-核心用到到js差不多就是main.js，vue-popper.js
+核心用到的js就是main.js，vue-popper.js
 
-其他都是element封装好都调用都公共方法
+其余的是elementUI封装好的公共JS文件
 
 **vdom.js**
 
-是找到this.$slots.default中都vode
+是取到this.$slots.default中的vode
 
-因为this.$slots.default默认返回都是一个数组
 
 **dom.js**
 
