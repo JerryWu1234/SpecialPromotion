@@ -6,6 +6,8 @@
 
 [dom的一些简单操作](https://github.com/wulinsheng123/SpecialPromotion/issues/2)
 
+[classList，getComputedStyle，getBoundingClientRect](https://github.com/wulinsheng123/SpecialPromotion/blob/master/js%E6%80%BB%E7%BB%93/DOM%E6%93%8D%E4%BD%9C.md)
+
 
 
 <h1>element对组件对解析</h1>
