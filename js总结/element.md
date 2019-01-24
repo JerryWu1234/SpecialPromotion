@@ -21,8 +21,7 @@ toolpic 分别涉略了。《**main.js vue-popper.js popup.js vdom.js dom.js**�
 
 **dom.js**
 
-是添加样式，检测是否有这个样式，获取样式等一些方法，
-对ie上对兼容等
+这个js对方法主要的功能是，添加样式，检测是否有这个样式，获取样式等一些方法，还有对ie上对兼容等
 有兴趣可以看看
 
 main.js：代码
@@ -66,18 +65,31 @@ export default {
     },
     methods: {
         show(){
-            console.log('经过啦')
-            this.showPopper = true
+            this.handleShowPopper()
         },
         hide() {
-            console.log('离开啦')
             this.showPopper = false
+        },
+        handleShowPopper() {
+            clearTimeout(this.timeout)
+            this.timeout = setTimeout(()=>{
+                this.showPopper = true
+            })
         }
+    },
+    // 清除实例
+    beforeDestroy() {
+            this.newVue && this.newVue.$destroy()
+    },
+    // 清除事件
+    destroyed() {
+        this.referenceElm.removeEventListener('mouseenter',this.show)
+        this.referenceElm.removeEventListener('mouseleave',this.hide)
     }
 }
 
 ```
-main.js进行了简化
+main.js简化版
 
 在生命周期beforeCreate中创建一个新对vue对象，
 
@@ -115,7 +127,7 @@ export default {
     },
     watch: {
         showPopper(val) {
-            val ? this.createpopper() : this.destroyPopper();
+            val ? this.createpopper() : ''
         }
     },
     methods: {
