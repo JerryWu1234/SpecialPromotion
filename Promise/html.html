@@ -7,9 +7,64 @@
 <body>
 
 </body>
-<script src="./Promise.js"></script>
+<!--<script src="./Promise.js"></script>-->
 <script>
-    Promise.resolve(2).then(res => Promise.resolve(4)).then(res => {console.log(res)})
+    // (async () => {
+    //     const fetchData = async () => {
+    //         return new ES6Promise((resolve, reject) => {
+    //             setTimeout(() => {
+    //                 resolve('fetch data is me')
+    //             }, 1000)
+    //         })
+    //     }
+    //
+    //     const [err, data] = await fetchData().then(data => [null, data] ).catch(err => [err, null])
+    //     console.log('err', err)
+    //     console.log('data', data)
+    //     // err null
+    //     // data fetch data is me
+    // })()
+    function Quene() {
+        this.quene = [];
+    }
+
+
+    Quene.prototype.task = function (time, callback) {
+        this.quene.push({ time, callback });
+        return this;
+    };
+
+    Quene.prototype.start = function () {
+        const quene = this.quene;
+        let result = Promise.resolve();
+
+        quene.forEach((item) => {
+            result = result.then(() => {
+                debugger
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        resolve(item.callback());
+                    }, item.time);
+                });
+            });
+        });
+
+        return result;
+    };
+
+
+    debugger
+    new Quene()
+        .task(1000, () => {
+            console.log(1)
+        })
+        .task(2000, () => {
+            console.log(2)
+        })
+        .task(1000, () => {
+            console.log(3)
+        })
+        .start()
 </script>
 </html>
 
