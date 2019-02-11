@@ -24,47 +24,20 @@
     //     // err null
     //     // data fetch data is me
     // })()
-    function Quene() {
-        this.quene = [];
-    }
 
+var dom = document.querySelector('#id')
+    document.addEventListener('alert', function (event) {
+        console.log(event)
+    }, false);
 
-    Quene.prototype.task = function (time, callback) {
-        this.quene.push({ time, callback });
-        return this;
-    };
+    // 创建
+    var evt = document.createEvent("MouseEvents");
+    // 初始化
+    evt.initMouseEvent("alert", false, false);
 
-    Quene.prototype.start = function () {
-        const quene = this.quene;
-        let result = Promise.resolve();
+    // 触发, 即弹出文字
+    document.dispatchEvent(evt);
 
-        quene.forEach((item) => {
-            result = result.then(() => {
-                debugger
-                return new Promise((resolve, reject) => {
-                    setTimeout(() => {
-                        resolve(item.callback());
-                    }, item.time);
-                });
-            });
-        });
-
-        return result;
-    };
-
-
-    debugger
-    new Quene()
-        .task(1000, () => {
-            console.log(1)
-        })
-        .task(2000, () => {
-            console.log(2)
-        })
-        .task(1000, () => {
-            console.log(3)
-        })
-        .start()
 </script>
 </html>
 
