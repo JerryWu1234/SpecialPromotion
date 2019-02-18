@@ -1,14 +1,6 @@
 ```js
 // webpack初始化代码
-const path = require('path')
-modules.exports = {
-    mode: 'development',
-    enter: './src/index.js' ,
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'bulid'),
-    }
-}
+
 ```
 
 <h1>webpack</h1>

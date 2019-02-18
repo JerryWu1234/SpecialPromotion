@@ -451,6 +451,7 @@
         }
     }
     // new promise到初始化
+    //     new Promise(function(resolve,reject){})
     function initializePromise(promise, resolver) {
         try {
             resolver(function resolvePromise(value) {
@@ -872,6 +873,7 @@
                 typeof resolver !== 'function' && needsResolver();
                 // 如果不是一个promise就是直接抛出错误，是一个new就继续执行初始化
                 this instanceof Promise ? initializePromise(this, resolver) : needsNew();
+                // this instanceof Promise主要为了检验promise是否new了
             }
         }
 
