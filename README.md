@@ -18,3 +18,6 @@
 <h1>前端知识重构</h1>
 
 [基本类型的转换](https://github.com/wulinsheng123/SpecialPromotion/blob/master/js%E6%80%BB%E7%BB%93/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E9%87%8D%E6%9E%84/js%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.md)
+
+[typescript入门]()
+
