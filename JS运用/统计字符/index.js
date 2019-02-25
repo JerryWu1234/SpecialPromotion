@@ -4,13 +4,10 @@ function max(str,cnt) {
     if (str.length == cnt) {
         return '';
     }
-    debugger
     for (let i = 0; i < 9 && cnt > 0; i ++){
         let index = str.indexOf(i.toString())
-        debugger
         if(index != -1){
             str.splice(index, 1)
-            debugger
             cnt--
         }
     }
