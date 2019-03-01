@@ -74,11 +74,21 @@
      interface Person {
               readonly name: string; // 只能创建的时候被赋值
               age?: number; // 这个字段可以没有
-          }
+      }
           
      let tom: Person = {
                    name: 'Tom',
-               };
+      };
+
+      // class类中接口的使用
+      interface ClockInterface {
+        currentTime: Date;
+      }
+
+      class Clock implements ClockInterface {
+          currentTime: Date;
+          constructor(h: number, m: number) { }
+      }
 
   ```
 ### typescript 的函数使用方法
@@ -120,4 +130,20 @@
             // value属于为定义的属性类型
             return something;
     }
+```
+
+// ts的基本使用 
+```ts
+ function Throttling(callback:()=> void, time:number):()=> void {
+     let recording: number | undefined = undefined
+     return function ():void {
+        if(<undefined>recording)clearTimeout(recording)
+         
+        recording = setTimeout(() => {
+            callback()
+        },time)
+     
+    }
+
+}
 ```
