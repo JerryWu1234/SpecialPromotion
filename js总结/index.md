@@ -229,3 +229,29 @@ const toggleClass = (el, className) => el.classList.toggle(className)
 3.避免使用in去遍历，因为会遍历原型上对方法
 4.借助webpack等工具对静态资源进行优化
 
+
+###页面关闭前的监听事件
+
+浏览器有两个事件可以用来监听页面关闭，beforeunload和unload
+
+##beforeunload
+beforeunload是在文档和资源将要关闭的时候调用的， 这时候文档还是可见的，
+并且在这个关闭的事件还是可以取消的。比如下面这种写法就会让用户导致在刷新或者关闭页面时候，
+有个弹窗提醒用户是否关闭。
+
+##unload
+unload则是在页面已经正在被卸载时发生，此时文档所处的状态是：
+1.所有资源仍存在（图片，iframe等）；
+2.对于用户所有资源不可见；
+3.界面交互无效（window.open, alert, confirm 等）；
+4.错误不会停止卸载文档的过程。
+
+
+```js
+window.addEventListener("beforeunload", function (event) {
+  // Cancel the event as stated by the standard.
+  event.preventDefault();
+  // Chrome requires returnValue to be set.
+  event.returnValue = '';
+});
+```
