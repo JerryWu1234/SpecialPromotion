@@ -130,6 +130,9 @@
             // value属于为定义的属性类型
             return something;
     }
+
+    example: argArray(1,2,4,'str') 
+    // value 会自动匹配成‘str’的类型
 ```
 
 // ts的基本使用 
@@ -146,4 +149,38 @@
     }
 
 }
+```
+
+用ts写了一个终结者模式
+
+```js
+interface parameter {
+    name: string;
+    backCall?: () => {};
+}
+let observer = (function(){
+    let obj = {}
+    return {
+        add(parameter): void {
+            let val: Array<any> | undefined = obj[parameter.name]
+            if(<Array<any>>val){
+                val.push(parameter.backCall)
+            }else{
+                obj[parameter.name] = []
+                obj[parameter.name].push(parameter.backCall)
+            }
+            // <Array<any>>val ? obj[parameter.name].push(parameter.backCall) : obj[parameter.name] = [], obj[parameter.name].push(parameter.backCall)
+        },
+        run(runComman:string): void{
+            let val: Array<any> | undefined = obj[runComman]
+            if(<Array<any>>val){
+                for(let key of val){
+                    key()
+                }
+            }
+
+        }
+    }
+})()
+
 ```

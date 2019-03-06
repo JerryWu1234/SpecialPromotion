@@ -93,7 +93,9 @@ window.dispatchEvent(new Event('resize'))
 var event = new Event('build');
 var elem = document.querySelector('#id')
 // 监听事件
-elem.addEventListener('build', function (e) { ... }, false);
+elem.addEventListener('build', function (e) {
+    // content
+ }, false);
 // 触发事件.
 elem.dispatchEvent(event);
 ```
