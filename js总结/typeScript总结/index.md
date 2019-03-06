@@ -3,8 +3,7 @@
 ### typescript 的基本类型
 
 1.number 数字类型
-
- **example:**
+**example:**
  
  ```js
     let val: Number = 2
