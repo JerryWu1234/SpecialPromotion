@@ -107,6 +107,7 @@ let divFactory = (function(){
             div = new Div()
             alldata.push(div)
         } else {
+            // 大于10个时候我就拿地址池里面的dom循环利用
             div = alldata.shift()
             alldata.push(div)
         }
