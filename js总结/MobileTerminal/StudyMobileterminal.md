@@ -1,4 +1,4 @@
-<h1>移动web硬知识点</h2>
+<h1>移动web硬知识点</h1>
 
 <h2>移动web的适配片</h2>
 <h3>物理像素和css像素的联系</h3>
@@ -42,7 +42,20 @@ user-scalable 定义是否允许用户手动缩放
  
  4.html-webpack-plugin *npm install html-webpack-plugin* //html插件
  
- 5.babel  es6插件
+ 5.html-webpack-inline-source-plugin *npm install html-webpack-inline-source-plugin* 
+ 
+ 6.eslint *npm install eslint* 
+ 
+ 7.eslint-loader *npm install eslint-loader* 
+ 
+ 8.eslint-plugin-react *npm install eslint-plugin-react* 
+ 
+ 9.sass-resources-loader *npm install sass-resources-loader* // 提取样式
+ 
+ 10.react-hot-loader *npm install react-hot-loader*//react热更新
+ 
+ 
+babel  es6插件
  ```js
 "babel-core": "^6.26.0",
 "babel-eslint": "^8.2.3",
@@ -54,23 +67,94 @@ user-scalable 定义是否允许用户手动缩放
 "babel-plugin-transform-async-to-generator": "^6.24.1",
 "babel-plugin-transform-runtime": "^6.23.0",
 ```
-6.react 相关插件
+react 相关插件
 ```js
+//const Order = loadable({
+//       loader: () => import(/* webpackChunkName: "order" */'../Order/Order'),
+//      loading: Loading,
+// });
+// react懒加载的写法,主要用于优化
+"react-loadable": "^5.5.0",
 "react": "^16.2.0",
 "react-dom": "^16.2.0",
 "react-redux": "^5.0.7",
 "redux": "^3.7.2",
-"redux-thunk": "^2.2.0"
+"redux-thunk": "^2.2.0",
+"react-router-dom": "^5.0.0",
+"connected-react-router": "^6.3.2",
+// react-router-dom 和 react-router-redux 路由的必备组件
 ```
  
-7.style样式相关插件
+style样式相关插件
 
 ```js
+// 清除之前的html
+"clean-webpack-plugin": "^2.0.1",
 "style-loader": "^0.20.3",
 "url-loader": "^1.0.1",
 "sass-loader": "^6.0.7",
 "sass-resources-loader": "^1.3.3",
 "node-sass": "^4.7.2",
 "css-loader": "^0.28.11",
-"file-loader": "^1.1.11"
+"file-loader": "^1.1.11",
+"mini-css-extract-plugin": "^0.6.0", //css抽离
+
+```
+
+<h3>滚动的知识</h3>
+
+```js
+scrollHeight  // 全部高度不管看见或者看不见
+document.body.scrollHeight
+// 整个body的全部高度
+
+clientHeight //视口的高度
+//获取html的高度
+document.documentElement.clientHeight
+
+scrollTop // 滚动高度
+document.documentElement.scrollTop
+// 获取html的滚动高度
+
+scrollTop + clientHeight > scrollHeight //滚动条已经到底
+```
+
+<h3>react项目优化</h3>
+
+1.利用loadable模块懒加载
+利用"react-loadable": "^5.5.0",模块懒加载。
+
+```js
+// 懒加载组件的写法
+const Order = loadable({
+      loader: () => import(/* webpackChunkName: "order" */'../Order/Order'),
+      loading: Loading,
+ });
+```
+2.抽离js和css
+```js
+optimization: {
+       splitChunks: {
+           cacheGroups: {
+               // 抽离node_modules里的js生成common.js
+               common: {
+                   test: /[\\/]node_modules[\\/]/,
+                   chunks: "all",
+                   name: 'common'
+               }
+           },
+
+
+       }
+    },
+```
+
+利用mini-css-extract-plugin抽离css模块
+
+```js
+// 放入plugin[]的数组中
+new MiniCssExtractPlugin({
+    filename: '[name].css',
+    chunkFilename: "[id],css"
+})
 ```
