@@ -34,7 +34,6 @@ function throttle (delay, no_trailing, callback) {
       timeout_id = undefined;
     };
     
-    
     // Clear any existing timeout.
     timeout_id && clearTimeout(timeout_id);
 
