@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/systemOptimization/segmentloading.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js总结/vueSources/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systemOptimization/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/systemOptimization/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js模式/underscore/index.js" beforePathEscaped="$PROJECT_DIR$/Js模式/#8#underscore#8#/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Js模式/underscore/index.js" afterPathEscaped="$PROJECT_DIR$/Js模式/#8#underscore#8#/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,18 +23,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack总结/wenpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="480">
               <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="211">
+              <first_editor relative-caret-position="1350">
                 <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="529">
+                <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Js模式/模版设计模式/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="195">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
@@ -54,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
+            <state relative-caret-position="1200">
               <caret line="80" column="17" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
             </state>
           </provider>
@@ -64,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/systemOptimization/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
+              <first_editor relative-caret-position="105">
                 <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
@@ -87,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dome/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5593">
+            <state relative-caret-position="4935">
               <caret line="329" column="13" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
             </state>
           </provider>
@@ -96,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Js模式/状态模式/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="105">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
@@ -157,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS运用/throttle函数/index.html" />
         <option value="$PROJECT_DIR$/JS运用/保留最大数/index.js" />
         <option value="$PROJECT_DIR$/JS运用/保留最大数/index.html" />
         <option value="$PROJECT_DIR$/JS运用/密码位数隐藏/index.js" />
@@ -208,14 +218,15 @@
         <option value="$PROJECT_DIR$/systemOptimization/index.md" />
         <option value="$PROJECT_DIR$/systemOptimization/segmentloading.md" />
         <option value="$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md" />
+        <option value="$PROJECT_DIR$/js总结/vueSources/index.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="282" />
-    <option name="y" value="61" />
-    <option name="width" value="1920" />
-    <option name="height" value="795" />
+    <option name="x" value="180" />
+    <option name="y" value="123" />
+    <option name="width" value="1080" />
+    <option name="height" value="601" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -230,17 +241,6 @@
               <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="MobileTerminal" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -250,6 +250,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -376,16 +377,20 @@
       <workItem from="1555039271219" duration="2449000" />
       <workItem from="1555068680849" duration="617000" />
       <workItem from="1555120093194" duration="94000" />
+      <workItem from="1557111724922" duration="3221000" />
+      <workItem from="1557152278163" duration="341000" />
+      <workItem from="1557360001724" duration="768000" />
+      <workItem from="1557366635129" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229784000" />
+    <option name="totallyTimeSpent" value="234118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="795" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.21705426" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.1205074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50211567" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -397,7 +402,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.17354196" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.09873061" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -440,9 +445,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vue组件/notification/func-notification.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue组件/tabs/Tab.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -703,21 +705,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack总结/wenpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="480">
           <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1350">
+            <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Js模式/模版设计模式/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="195">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
+        <state relative-caret-position="1200">
           <caret line="80" column="17" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
         </state>
       </provider>
@@ -725,7 +737,7 @@
     <entry file="file://$PROJECT_DIR$/systemOptimization/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
+          <first_editor relative-caret-position="105">
             <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
@@ -744,14 +756,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../dome/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5593">
+        <state relative-caret-position="4935">
           <caret line="329" column="13" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Js模式/状态模式/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
@@ -759,11 +771,11 @@
     <entry file="file://$PROJECT_DIR$/JS运用/保留最大数/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md">
+    <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="211">
-            <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+          <first_editor relative-caret-position="529">
+            <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>

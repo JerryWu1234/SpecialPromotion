@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="./index.js"></script>
+<script>
+
+    const once = fn => {
+        let state = true
+        return function (...arg) {
+            if(!state) return
+            fn.apply(this,arg)
+            state = false
+        }
+    }
+</script>
+</html>

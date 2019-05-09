@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="./index.js"></script>
+
+<script>
+    const debounce = (fn,tm = 100) =>{
+        let func = ''
+        return function (...arg) {
+            clearInterval(func)
+            let func = setTimeout(() => fn.apply(this, arg), tm)
+        }
+    }
+
+
+</script>
+</html>

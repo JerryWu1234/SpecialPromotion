@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .class1 {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 200px;
+        background: #000;
+        left: 50%;
+    }
+    .class2 {
+        height: 200px;
+        width: 200px;
+        margin: 200px;
+        background: green;
+    }
+</style>
+<body>
+    <div class="class1">sdsd</div>
+    <div class="class2">asdas</div>
+</body>
+<script src="./index.js"></script>
+<script>
+
+    let Event = new events()
+    let f1 = (name)=>{console.log(name)}
+    let f2 = (val)=>{console.log(val)}
+    Event.emit('name',f1)
+    Event.emit('name',f2)
+    Event.remove('name',f2)
+    Event.onEvent('name','sds')
+
+
+
+</script>
+</html>
