@@ -93,6 +93,29 @@ function mergeData (to: Object, from: ?Object): Object {
   }
   return to
 }
-将 from上的数据合并到了to上，并进行深度递归
+//将 from上的数据合并到了to上，并进行深度递归
 
+```
+
+###Vue 的初始化之开篇
+
+if(hasProxy)主要是为了检测是否支持proxy
+
+初始化函数中 initLifecycle 指定$parent 、$root、 $children属性的值，让其关联。
+初始化部分属性的值
+```js
+vm._watcher = null
+  vm._inactive = null
+  vm._directInactive = false
+  vm._isMounted = false
+  vm._isDestroyed = false
+  vm._isBeingDestroyed = false
+```
+components 组价解析实际是通过Vue.extend
+
+初始化完生命周期函数之后会初始化事件函数initEvents
+并在实例上添加2个方法
+```js
+ vm._events = Object.create(null)
+  vm._hasHookEvent = false
 ```
