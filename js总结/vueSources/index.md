@@ -7,6 +7,17 @@ new Vue()
 ###1._init(options)
 
    初始化数据，执行生命钩子函数的create 函数，初始化Vue原型链上的属性
+```js
+    initLifecycle(vm)
+    initEvents(vm)
+    initRender(vm)
+    callHook(vm, 'beforeCreate')
+    initInjections(vm) // resolve injections before data/props
+    initState(vm)
+    initProvide(vm) // resolve provide after data/props
+    callHook(vm, 'created')
+
+```
 ####options初始化
     //通过mergeOptions函数初始化后的options对象
         Vue.options = {
