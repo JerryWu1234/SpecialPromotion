@@ -1,6 +1,7 @@
 # SpecialPromotion
 
 <h1>js部分的心得</h1>
+[Dom Tree Api](https://github.com/wulinsheng123/SpecialPromotion/blob/master/js%E6%80%BB%E7%BB%93/node%E5%85%83%E7%B4%A0%E6%93%8D%E4%BD%9Capi/index.md)
 
 [js函数方法的一些总结](https://github.com/wulinsheng123/SpecialPromotion/issues/1)
 
