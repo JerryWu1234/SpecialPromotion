@@ -5,7 +5,9 @@ new Vue()
 
 
 ###1._init(options)
-    
+
+   初始化数据，执行生命钩子函数的create 函数，初始化Vue原型链上的属性
+####options初始化
     //通过mergeOptions函数初始化后的options对象
         Vue.options = {
             components: {
@@ -42,17 +44,8 @@ new Vue()
     以上没有提及到的选项都将使默认选项 defaultStrat。
     
     默认合并策略函数 defaultStrat 的策略是：只要子选项不是 undefined 就使用子选项，否则使用父选项。
-    
-###2.this.stateMixin
-    prototype上添加$set，$delete，.$watch，$props, $data
-    
+####initLifecycle
 
-###3.this.eventsMixin
-
-    prototype上添加$on,$once,$off,$emit    
-   
-
-###4.this.lifecycleMixin
     export function initLifecycle (vm: Component) {
       // 定义 options，它是 vm.$options 的引用，后面的代码使用的都是 options 常量
       const options = vm.$options
@@ -85,9 +78,53 @@ new Vue()
     
     初始化函数中 initLifecycle 指定$parent 、$root、 $children属性的值，让其关联。
     
+    abstract属性是抽象的意思，不会渲染成DOM
+      
+#### initEvent
+    初始化
+    
+    vm._events = Object.create(null)
+    vm._hasHookEvent = false
+    // init parent attached events
+    const listeners = vm.$options._parentListeners
+      
+    prototype上添加$on,$once,$off,$emit 
+    
+####initState
+    
+    callHook(vm, 'beforeCreate')
+    initInjections(vm) // resolve injections before data/props
+    initState(vm)
+    initProvide(vm) // resolve provide after data/props
+    callHook(vm, 'created')
+    
+    export function initState (vm: Component) {
+      vm._watchers = []
+      const opts = vm.$options
+      if (opts.props) initProps(vm, opts.props)
+      if (opts.methods) initMethods(vm, opts.methods)
+      if (opts.data) {
+        initData(vm)
+      } else {
+        observe(vm._data = {}, true /* asRootData */)
+      }
+      if (opts.computed) initComputed(vm, opts.computed)
+      if (opts.watch && opts.watch !== nativeWatch) {
+        initWatch(vm, opts.watch)
+      }
+    }
+    
+    初始化props,data computer 等属性
+###2.this.stateMixin
+    
+
+###3.this.eventsMixin
+       
+   
+
+###4.this.lifecycleMixin
+    
+  
 
 ###5.this.renderMixin
-
-    调用installRenderHelpers初始化renader函数
-    
-    prototype 添加$nextTick
+   
