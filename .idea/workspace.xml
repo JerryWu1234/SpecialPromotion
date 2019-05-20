@@ -41,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="749">
-                <caret line="63" column="131" selection-start-line="63" selection-start-column="131" selection-end-line="63" selection-end-column="131" />
+              <first_editor relative-caret-position="788">
+                <caret line="211" selection-start-line="211" selection-end-line="211" />
               </first_editor>
               <second_editor />
             </state>
@@ -435,12 +435,12 @@
       <workItem from="1557975560127" duration="27000" />
       <workItem from="1557994749590" duration="1229000" />
       <workItem from="1558074379874" duration="7302000" />
-      <workItem from="1558232816281" duration="9143000" />
+      <workItem from="1558232816281" duration="11672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259424000" />
+    <option name="totallyTimeSpent" value="261953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -846,8 +846,8 @@
     <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="749">
-            <caret line="63" column="131" selection-start-line="63" selection-start-column="131" selection-end-line="63" selection-end-column="131" />
+          <first_editor relative-caret-position="788">
+            <caret line="211" selection-start-line="211" selection-end-line="211" />
           </first_editor>
           <second_editor />
         </state>
