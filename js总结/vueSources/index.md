@@ -125,7 +125,25 @@ new Vue()
       }
     }
     
-    初始化props,data computer 等属性
+    初始化props,data computer 等属性，检查Key值是否有冲突
+    
+    proxy 代理可以让data数据可以直接被访问
+    
+    export function proxy (target: Object, sourceKey: string, key: string) {
+      sharedPropertyDefinition.get = function proxyGetter () {
+        return this[sourceKey][key]
+      }
+      sharedPropertyDefinition.set = function proxySetter (val) {
+        this[sourceKey][key] = val
+      }
+      Object.defineProperty(target, key, sharedPropertyDefinition)
+    }
+    
+    数组收集依赖处理方法，
+    1.重新包裹数组函数
+    2.兼容IE使用getOwnPropertyNames更改key名
+    
+    对新增的数据添加新增观察关系
 ###2.this.stateMixin
     
 
