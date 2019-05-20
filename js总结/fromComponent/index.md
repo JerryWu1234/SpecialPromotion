@@ -61,7 +61,7 @@ export default {
     }
 }
 ```
-
+![avatar](https://github.com/wulinsheng123/SpecialPromotion/blob/master/js%E6%80%BB%E7%BB%93/fromComponent/QQ20190520-162639-HD.gif)
 
 
 
