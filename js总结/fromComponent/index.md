@@ -1,7 +1,7 @@
 #vue的hoc高阶组件
 业务介绍：Vue+element Ui = 后端管理系统
 
-优化element UI from表单组件在多个搜索条件时代码臃肿的情况。
+优化element UI from表单组件在多个搜索条件时，代码臃肿的情况。
 
 ```vue
 <HbForms
