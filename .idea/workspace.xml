@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="" />
+    <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS运用/arrayList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2175">
-                <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
+              <first_editor relative-caret-position="2235">
+                <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,17 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vue组件/froms/hbSearch.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1043" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="788">
+              <first_editor relative-caret-position="3165">
                 <caret line="211" selection-start-line="211" selection-end-line="211" />
               </first_editor>
               <second_editor />
@@ -63,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/js总结/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-902">
+              <first_editor relative-caret-position="450">
                 <caret line="144" column="51" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="51" />
                 <folding>
                   <element signature="e#9#18#0" />
@@ -85,22 +82,49 @@
         <entry file="file://$PROJECT_DIR$/js总结/element.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="508">
-                <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" selection-end-column="18" />
+              <first_editor relative-caret-position="2130">
+                <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <first_editor relative-caret-position="405">
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js总结/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../dome/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6015">
+              <caret line="401" column="7" selection-start-line="401" selection-start-column="7" selection-end-line="401" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS运用/arrayList/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
             </state>
           </provider>
         </entry>
@@ -126,9 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FlyweightBook</find>
-      <find>books</find>
-      <find>divFactory</find>
       <find>getExternalState</find>
       <find>flyweightBookFactory</find>
       <find>Promise$1</find>
@@ -156,6 +177,9 @@
       <find>visitedCopyQueue</find>
       <find>visitedQueue</find>
       <find>axios</find>
+      <find>deQueue</find>
+      <find>enQueue</find>
+      <find>Rear</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS运用/添加元素/index.js" />
         <option value="$PROJECT_DIR$/JS运用/添加元素/index.html" />
         <option value="$PROJECT_DIR$/JS运用/统计字符/index.html" />
         <option value="$PROJECT_DIR$/JS运用/网址获取参数/index.html" />
@@ -203,7 +226,6 @@
         <option value="$PROJECT_DIR$/JS运用/统计字符/index.js" />
         <option value="$PROJECT_DIR$/js总结/DOM操作.md" />
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.html" />
-        <option value="$PROJECT_DIR$/../dome/index.html" />
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.js" />
         <option value="$PROJECT_DIR$/JS运用/js分段加载/index.html" />
         <option value="$PROJECT_DIR$/systemOptimization/index.md" />
@@ -215,13 +237,15 @@
         <option value="$PROJECT_DIR$/js总结/vueSources/index.md" />
         <option value="$PROJECT_DIR$/js总结/fromComponent/index.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../dome/index.html" />
+        <option value="$PROJECT_DIR$/JS运用/arrayList/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,42 +263,7 @@
             <path>
               <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="fromComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="MobileTerminal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="typeScript总结" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="vueSources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
-              <item name="前端知识重构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mySelfproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mySelfproject" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue组件" type="462c0819:PsiDirectoryNode" />
+              <item name="JS运用" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,17 +288,17 @@
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js总结/fromComponent" />
-      <recent name="$PROJECT_DIR$/JS运用/achieveCall" />
-      <recent name="$PROJECT_DIR$/js总结/前端项目知识重构" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Vue组件/froms" />
       <recent name="$PROJECT_DIR$/JS运用/dom的操作" />
       <recent name="$PROJECT_DIR$/JS运用/输出所有的排序可能" />
       <recent name="$PROJECT_DIR$/JS运用/计数" />
       <recent name="$PROJECT_DIR$/JS运用/网址获取参数" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js总结/fromComponent" />
+      <recent name="$PROJECT_DIR$/JS运用/achieveCall" />
+      <recent name="$PROJECT_DIR$/js总结/前端项目知识重构" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,18 +422,21 @@
       <workItem from="1557975560127" duration="27000" />
       <workItem from="1557994749590" duration="1229000" />
       <workItem from="1558074379874" duration="7302000" />
-      <workItem from="1558232816281" duration="11958000" />
+      <workItem from="1558232816281" duration="12022000" />
+      <workItem from="1558396875027" duration="4893000" />
+      <workItem from="1558482675811" duration="595000" />
+      <workItem from="1558576273971" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262239000" />
+    <option name="totallyTimeSpent" value="268389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.0900474" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.066948555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50211567" side_tool="true" weight="0.24947146" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,7 +448,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.09108911" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.067226894" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -499,9 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Vue组件/notification/notification.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue组件/notification/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -599,7 +588,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/前端知识重构/js基本类型转换.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="833">
@@ -608,6 +596,7 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/books/js忍者秘籍.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -715,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="17" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemOptimization/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -739,13 +721,6 @@
             <caret column="6" selection-start-column="6" selection-end-column="6" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dome/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4935">
-          <caret line="329" column="13" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -769,10 +744,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/achieveCall/call.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/Vue组件/froms/hbSearch.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2235">
+            <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3165">
+            <caret line="211" selection-start-line="211" selection-end-line="211" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -789,7 +780,7 @@
     <entry file="file://$PROJECT_DIR$/js总结/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-902">
+          <first_editor relative-caret-position="450">
             <caret line="144" column="51" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="51" />
             <folding>
               <element signature="e#9#18#0" />
@@ -809,33 +800,8 @@
     <entry file="file://$PROJECT_DIR$/js总结/element.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="508">
-            <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue组件/froms/hbSearch.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1043" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2175">
-            <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="788">
-            <caret line="211" selection-start-line="211" selection-end-line="211" />
+          <first_editor relative-caret-position="2130">
+            <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -844,10 +810,38 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <first_editor relative-caret-position="405">
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/arrayList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/achieveCall/call.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dome/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6015">
+          <caret line="401" column="7" selection-start-line="401" selection-start-column="7" selection-end-line="401" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -24,3 +24,4 @@
 
 [typescript入门](https://github.com/wulinsheng123/SpecialPromotion/blob/master/js%E6%80%BB%E7%BB%93/typeScript%E6%80%BB%E7%BB%93/index.md)
 
+
