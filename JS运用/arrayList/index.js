@@ -1,12 +1,10 @@
-/**
- * Initialize your data structure here. Set the size of the queue to be k.
- * @param {number} k
- */
+
 var MyCircularQueue = function(k) {
-    this.k = k
-    this.index = 0
-    this.val = new Array(this.k || 0)
-    return this.val.length
+    this.val = new Array(k)
+    this.head = -1
+    this.tail = -1
+    this.size = k
+
 };
 
 /**
@@ -15,15 +13,15 @@ var MyCircularQueue = function(k) {
  * @return {boolean}
  */
 MyCircularQueue.prototype.enQueue = function(value) {
-    let k = this.k
-    let index = this.index
-    if(k > index){
-        this.val[index] = value
-        this.index++
-        return true
-    }else{
+    if (this.isFull() === true) {
         return false
     }
+    if (this.isEmpty() === true) {
+        this.head = 0
+    }
+    this.tail = (this.tail + 1) % this.size
+    this.val[this.tail] = value
+    return true;
 };
 
 /**
@@ -31,14 +29,18 @@ MyCircularQueue.prototype.enQueue = function(value) {
  * @return {boolean}
  */
 MyCircularQueue.prototype.deQueue = function() {
-    let val = this.val
-    if(val.length > 0){
-        this.val.shift()
-        this.index--
-        return true
-    }else{
+    if (this.isEmpty() === true) {
         return false
     }
+    this.val[this.head] = ''
+    if (this.head === this.tail) {
+        this.head = -1;
+        this.tail = -1
+        return true
+    }
+    this.head = (this.head + 1) % this.size
+
+    return true
 };
 
 /**
@@ -46,9 +48,10 @@ MyCircularQueue.prototype.deQueue = function() {
  * @return {number}
  */
 MyCircularQueue.prototype.Front = function() {
-    let val = this.val
-    if(val.length === 0) return -1
-    return val[0]
+    if (this.isEmpty() == true) {
+        return -1;
+    }
+    return this.val[this.head]
 };
 
 /**
@@ -56,9 +59,10 @@ MyCircularQueue.prototype.Front = function() {
  * @return {number}
  */
 MyCircularQueue.prototype.Rear = function() {
-    let val = this.val
-    if(val.length < 0) return -1
-    return val[val.length - 1]
+    if (this.isEmpty() == true) {
+        return -1;
+    }
+    return this.val[this.tail]
 };
 
 /**
@@ -66,12 +70,7 @@ MyCircularQueue.prototype.Rear = function() {
  * @return {boolean}
  */
 MyCircularQueue.prototype.isEmpty = function() {
-    let val = this.val
-    if(val.length===0) {
-        return true
-    } else {
-        return false
-    }
+    return this.head === -1
 };
 
 /**
@@ -79,12 +78,7 @@ MyCircularQueue.prototype.isEmpty = function() {
  * @return {boolean}
  */
 MyCircularQueue.prototype.isFull = function() {
-    let index = this.index
-    if(index === this.val.length) {
-        return true
-    } else {
-        return false
-    }
+    return ((this.tail + 1) % this.size)  === this.head
 };
 
 /**
@@ -97,22 +91,3 @@ MyCircularQueue.prototype.isFull = function() {
  * var param_5 = obj.isEmpty()
  * var param_6 = obj.isFull()
  */
-let circularQueue = new MyCircularQueue(3); // 设置长度为 3
-
-circularQueue.enQueue(1);  // 返回 true
-
-circularQueue.enQueue(2);  // 返回 true
-
-circularQueue.enQueue(3);  // 返回 true
-
-circularQueue.enQueue(4);  // 返回 false，队列已满
-
-circularQueue.Rear();  // 返回 3
-
-circularQueue.isFull();  // 返回 true
-
-circularQueue.deQueue();  // 返回 true
-
-circularQueue.enQueue(4);  // 返回 true
-
-console.log(circularQueue.Rear())

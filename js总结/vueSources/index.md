@@ -139,11 +139,21 @@ new Vue()
       Object.defineProperty(target, key, sharedPropertyDefinition)
     }
     
-    数组收集依赖处理方法，
+    数组收集依赖处理的2种方法，
     1.重新包裹数组函数
     2.兼容IE使用getOwnPropertyNames更改key名
     
-    对新增的数据添加新增观察关系
+    对新增的数据添加新增观察关系，
+    
+    计算属性函数在生产环境并没有缓存功能
+    
+    computed 函数初始化的时候创建一个新对象，作为缓存对象。
+    创建一个新的new watcheds实例（计算函数的观察者），并缓存这个实例。
+    计算属性里面的值，收集计算属性的观察者对象，计算属性的观察者对象收集渲染函数观察者对象
+    然后通过计算函数的get拦截，是否读取缓存中的值
+    
+    provide and inject 两个属性inject必须是先执行，他会找到当前实例，并依次往上遍历。
+    
 ###2.this.stateMixin
     
 

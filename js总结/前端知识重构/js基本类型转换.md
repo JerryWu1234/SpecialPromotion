@@ -49,3 +49,9 @@
         console.log(o + "")
         // toPrimitive 调用toPrimitive函数
         // hello 直接输出了
+
+
+valueOf 
+
+undefined null 报错
+其他类型会返回它本身
