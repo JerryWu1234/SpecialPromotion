@@ -25,7 +25,7 @@ modules.exports = {
         compress: true
     },
     mode: 'development',
-    enter: './src/index.js' ,
+    enter: './src/设计循环队列.js' ,
     output: {
         filename: 'bundle.[hash].js',
         path: path.resolve(__dirname, 'bulid'),
