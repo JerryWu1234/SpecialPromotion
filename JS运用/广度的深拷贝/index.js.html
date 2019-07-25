@@ -22,6 +22,25 @@
         },
         noo: "2"
     }
-    console.log(deepExtend(obj1))
+    function deepExtend (obj) {
+      let returnDats = {}
+      let innerData = [obj]
+      let eachDagta = [returnDats]
+        while(innerData.length > 0){
+          let first = innerData.shift()
+          let item = eachDagta.shift()
+            for(let key in first) {
+                if(typeof first[key] !== 'object') {
+                    item[key] = first[key]
+                } else {
+                    innerData.push(first[key])
+                    item[key] = {}
+                    eachDagta.push(item[key])
+                }
+            }
+        }
+        return returnDats
+    }
+    console.log('>>>', deepExtend(obj1))
 </script>
 </html>
