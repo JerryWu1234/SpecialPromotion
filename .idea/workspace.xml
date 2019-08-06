@@ -6,12 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js总结/jsApi/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/node.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS运用/debounce函数/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS运用/debounce函数/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS运用/once函数/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS运用/once函数/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS运用/广度的深拷贝/index.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS运用/广度的深拷贝/index.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue组件/notification/function.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue组件/notification/function.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS运用/密码位数隐藏/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS运用/无重复字符的最长子串/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,21 +67,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS运用/广度的深拷贝/index.js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="272">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js总结/jsApi/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="121">
-                <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <first_editor relative-caret-position="799">
+                <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node/node.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="551">
+                <caret line="282" selection-start-line="282" selection-end-line="282" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="865" column="33" selection-start-line="865" selection-start-column="25" selection-end-line="865" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#327#436#0" />
+                <element signature="e#465#512#0" />
+                <element signature="e#897#1400#0" />
+                <element signature="e#1441#1488#0" />
+                <element signature="e#1519#1549#0" />
+                <element signature="e#2424#2604#0" />
+                <element signature="e#2641#2936#0" />
+                <element signature="e#2985#3166#0" />
+                <element signature="e#3197#3481#0" />
+                <element signature="e#4634#5161#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Promise/html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-364" />
           </provider>
         </entry>
       </file>
@@ -106,10 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_state</find>
-      <find>then</find>
-      <find>subscribe</find>
-      <find>useMutationObserver</find>
       <find>fulfill</find>
       <find>v</find>
       <find>isFunction</find>
@@ -136,6 +164,10 @@
       <find>addAtHead</find>
       <find>addAtTail</find>
       <find>addAtIndex</find>
+      <find>ES6Promise</find>
+      <find>factory</find>
+      <find>Promise$1</find>
+      <find>initializePromise</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Js模式/工厂模式/index.js" />
         <option value="$PROJECT_DIR$/js总结/aboutClassList.md" />
         <option value="$PROJECT_DIR$/Vue组件/tabs/Tab.vue" />
         <option value="$PROJECT_DIR$/Js模式/发布订阅者模式/index.html" />
@@ -195,10 +226,12 @@
         <option value="$PROJECT_DIR$/JS运用/广度的深拷贝/index.js" />
         <option value="$PROJECT_DIR$/JS运用/广度的深拷贝/index.js.html" />
         <option value="$PROJECT_DIR$/js总结/jsApi/index.md" />
+        <option value="$PROJECT_DIR$/node/node.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="795" />
@@ -209,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,17 +252,34 @@
             <path>
               <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
-              <item name="js总结" type="462c0819:PsiDirectoryNode" />
+              <item name="Js模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
-              <item name="Js模式" type="462c0819:PsiDirectoryNode" />
+              <item name="JS运用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
+              <item name="JS运用" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
+              <item name="Promise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
+              <item name="systemOptimization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,15 +468,19 @@
       <workItem from="1562210794596" duration="1714000" />
       <workItem from="1562639843976" duration="299000" />
       <workItem from="1563520220118" duration="4809000" />
-      <workItem from="1563925011990" duration="6769000" />
+      <workItem from="1563925011990" duration="6949000" />
+      <workItem from="1564041391457" duration="282000" />
+      <workItem from="1564487959396" duration="910000" />
+      <workItem from="1564532086113" duration="598000" />
+      <workItem from="1564532910067" duration="18513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356694000" />
+    <option name="totallyTimeSpent" value="377177000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="795" extended-state="0" />
+    <frame x="1" y="23" width="1440" height="795" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.13601127" />
@@ -442,7 +495,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.06460674" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19203414" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -485,15 +538,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS运用/计数/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/计数/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/添加元素/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js总结/typeScript总结/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -830,7 +874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS运用/广度的深拷贝/index.js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="272">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
@@ -838,10 +882,45 @@
     <entry file="file://$PROJECT_DIR$/js总结/jsApi/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="121">
-            <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <first_editor relative-caret-position="799">
+            <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="551">
+            <caret line="282" selection-start-line="282" selection-end-line="282" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promise/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="865" column="33" selection-start-line="865" selection-start-column="25" selection-end-line="865" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#327#436#0" />
+            <element signature="e#465#512#0" />
+            <element signature="e#897#1400#0" />
+            <element signature="e#1441#1488#0" />
+            <element signature="e#1519#1549#0" />
+            <element signature="e#2424#2604#0" />
+            <element signature="e#2641#2936#0" />
+            <element signature="e#2985#3166#0" />
+            <element signature="e#3197#3481#0" />
+            <element signature="e#4634#5161#0" />
+          </folding>
         </state>
       </provider>
     </entry>
