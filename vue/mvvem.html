@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="school.name">
+    <div>{{school.name}},{{school.age}}</div>
+    <div>{{school.age}}</div>
+    {{school.age}}
+    <ul>
+      <li>{{name}}</li>
+      <li>{{name}}</li>
+    </ul>
+  </div>
+  <div class="q"></div>
+</body>
+<script src="./moon.js"></script>
+<script>
+  let vm  = new Vue({
+      el: '#app',
+      data: {
+          school: {
+              name: '2343',
+              age: '12'
+          },
+          name: 'fdg'
+      }
+  })
+
+
+</script>
+</html>

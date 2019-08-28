@@ -13,11 +13,6 @@
 
 3.修改webpack中的package.json中的文件
 
-webpack 必备的包
-
-[webpack],[webpack-cli],[css-style],[html-webpack-plugin],[sytle-loader],[less-loader],[file-loader]
-
-[clean-webpack-plugin]
 ```js
 
 "build": "webpack"
@@ -42,4 +37,52 @@ output: {
    fliename: '[name].[hash].js',
    path: __dirname + '/dist'
 } 
+```
+
+<h3>webpack</h3>
+
+CommonsChunkPlugin 将chunks相同的模块代码提取成公共Js
+
+CleanWebpackPlugin 清理构建目录
+
+ExtrctTextWebpackPlugin 将css从build文件里提取成一个独立的css文件
+
+CopyWebpackPlugin 将文件或文件夹拷贝到构建目录
+
+HtmlWebpackPlugin 创建HTML文件去承载输出的bundle
+
+UglifyjsWebpackPlugin 压缩Js
+
+ZipWebpackPlugin 将打包出的资源生成一个zip包
+
+
+
+<h3>webpack 中的watch</h3>
+```js
+{
+    watch: true,
+    // 是否开启文件监听
+    watchOptions: {
+        ignored: /node_modules/,
+        // 填写要忽略的文件夹或者文件
+        aggregateTimeout: 300,
+        // 监听后改变默认会在300秒后改变
+        poll: 1000
+        // 每次间隔1000毫秒检查一次文件是否有变化
+    }
+}
+```
+
+<H3>css压缩</h3>
+
+OptimizeCSSAssetsPlugin // CSS压缩文件
+
+压缩Js插件
+
+terset-webpack-plugin 
+
+```js
+new TersetPlugin({
+  include: /\.min\.js&\/
+})
 ```
