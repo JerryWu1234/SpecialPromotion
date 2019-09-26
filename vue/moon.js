@@ -1,3 +1,4 @@
+
 class Compiler {
     constructor(vm, el, data) {
         this.vm = vm;
@@ -31,10 +32,6 @@ class Compiler {
     }
 
     compilerText(item) {
-    // \
-        // console.log(item.attributes)
-        // console.log(item)
-       // console.log(this.isText(item.textContent))
         const content = item.textContent
         const pat = new RegExp(/\{\{(.+?)\}\}/)
         if(pat.test(content)){
@@ -48,6 +45,7 @@ class Compiler {
             if(this.isDirective(name)){
                 const n = name.slice(2,name.length)
                 CompilerUtil[n](value, this.vm, item)
+
             }
         }
     }
@@ -62,12 +60,40 @@ class Compiler {
 
 const CompilerUtil = {
     model(value, vm, item){
-        const currentVal = this.getVal(value,vm.$data)
+        const currentVal = this.getVal(value,vm)
+        new Watcher(vm, value, (newVal)=>{
+            this.update['updateModel'](item, newVal);
+        })
+        item.addEventListener('input',(evet) => {
+            this.setVal(value, vm, evet.target.value)
+        })
         this.update['updateModel'](item, currentVal);
+    },
+    setVal(exp, vm, value){
+        const array = exp.split('.');
+        let first;
+        let extend = vm.$data
+        while ( first = array.shift()) {
+            if(array.length === 0){
+                extend[first] = value
+                break
+            }
+            extend = extend[first]
+
+        }
+
+    },
+    getContext(content, vm){
+        return content.replace(/\{\{(.+?)\}\}/g, (...arg) => {
+            return this.getVal(arg[1],vm)
+        })
     },
     text(item, vm, content) {
         const  text = content.replace(/\{\{(.+?)\}\}/g, (...arg) => {
-            return this.getVal(arg[1],vm.$data)
+            new Watcher(vm, arg[1], ()=>{
+                this.update['updateHtml'](item, this.getContext(content, vm))
+            })
+            return this.getVal(arg[1],vm)
         })
         this.update['updateHtml'](item, text)
     },
@@ -75,7 +101,7 @@ const CompilerUtil = {
     getVal(value, datas) {
        return value.split('.').reduce((data, item) => {
                 return data[item]
-        },datas)
+        },datas.$data)
     },
     update: {
         updateHtml(item, value) {
@@ -93,14 +119,23 @@ class Observer {
         }
     }
     defineReactive(key, value, data){
+        const dep = new Dep()
+        const that = this
         Object.defineProperty(data, key, {
             get() {
+                if(Dep.target){
+                    dep.addSub(Dep.target)
+                }
                 return value
             },
             set(newValue) {
-                data[key] = newValue
+                if(newValue === value) return
+                if(that.isObject(newValue)) that.observer(newValue)
+                value = newValue
+                dep.Notify()
             },
         })
+
     }
     observer(data, vm) {
         for(let key in data){
@@ -120,7 +155,39 @@ class Observer {
 }
 
 class Watcher {
-    
+    constructor(vm,val,fn){
+        this.vm = vm;
+        this.val = val
+        this.fn = fn
+        this.oldVal = this.get()
+    }
+    get() {
+        Dep.target = this
+        return CompilerUtil.getVal(this.val, this.vm)
+        Dep.target = null
+    }
+    update() {
+        const newVal = CompilerUtil.getVal(this.val, this.vm)
+        if(this.oldVal === newVal)return
+        this.fn(newVal)
+    }
+}
+class Dep {
+    constructor(){
+        this.target = null;
+        this.dep = []
+    }
+    addSub(vm){
+        this.dep.push(vm)
+        let set = new Set(this.dep)
+        this.dep = [...set]
+    }
+    Notify() {
+        console.log(this.dep)
+        this.dep.forEach(dep=>{
+            dep.update()
+        })
+    }
 }
 class Vue {
     constructor(options) {
@@ -129,9 +196,8 @@ class Vue {
         const {data, el} = options;
         this.$data = data;
         this.$el = el;
-        new Compiler(this, this.$el, this.$data)
         new Observer(this.$data, this)
-        console.log(this.$data)
+        new Compiler(this, this.$el, this.$data)
     }
 }
 

@@ -9,46 +9,61 @@
 </body>
 <script src="./Promise.js"></script>
 <script>
-    function Quene() {
-        this.quene = [];
-    }
-
-
-    Quene.prototype.task = function (time, callback) {
-        this.quene.push({ time, callback });
-        return this;
+    // function Quene() {
+    //     this.quene = [];
+    // }
+    //
+    //
+    // Quene.prototype.task = function (time, callback) {
+    //     this.quene.push({ time, callback });
+    //     return this;
+    // };
+    //
+    // Quene.prototype.start = function () {
+    //     const quene = this.quene;
+    //     let result = ES6Promise.resolve();
+    //
+    //     quene.forEach((item) => {
+    //         result = result.then(() => {
+    //             return new ES6Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve(item.callback());
+    //                 }, item.time);
+    //             });
+    //         });
+    //     });
+    //
+    //     return result;
+    // };
+    //
+    //
+    // new Quene()
+    //     .task(1000, () => {
+    //         console.log(1)
+    //     })
+    //     .task(4000, () => {
+    //         console.log(2)
+    //     })
+    //     .task(1000, () => {
+    //         console.log(3)
+    //     })
+    //     .start()
+    var reverseString = function(s) {
+        let Total = s.length - 1
+        let a =''
+        let print = function print (s, length) {
+            if(length >= 0){
+                a += s[length]
+                print(s, length-1)
+            } else {
+                return
+            }
+        }
+        print(s, Total)
+        return a
     };
 
-    Quene.prototype.start = function () {
-        const quene = this.quene;
-        let result = ES6Promise.resolve();
-
-        quene.forEach((item) => {
-            result = result.then(() => {
-                return new ES6Promise((resolve, reject) => {
-                    setTimeout(() => {
-                        resolve(item.callback());
-                    }, item.time);
-                });
-            });
-        });
-
-        return result;
-    };
-
-
-    new Quene()
-        .task(1000, () => {
-            console.log(1)
-        })
-        .task(2000, () => {
-            console.log(2)
-        })
-        .task(1000, () => {
-            console.log(3)
-        })
-        .start()
-
+    console.log(reverseString('abcd'))
 </script>
 </html>
 

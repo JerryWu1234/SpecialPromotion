@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/../../hellonBike/bpm/src/api/stockBom.js" description="&#10;// 创建采购bom&#10;export const bomProcurementInfoCreate ..." line="12" />
     <bookmark url="file://$PROJECT_DIR$/../../hellonBike/AppBikeSCMWeb/src/views/depot/DeliveryOutOrder/invoiceEdit/index.vue" description="allDepotByUser" line="239" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67b996a0-d5c2-4835-9e80-81f0f3a5b68e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/moon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/mvvem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack总结/js组件打包.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS运用/async await/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/Util/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/Util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/Util/isType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zepto/zepto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack总结/webpack.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack总结/webpack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS运用/js分段加载/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS运用/js分段加载/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS运用/js分段加载/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS运用/js分段加载/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promise/html.html" beforeDir="false" afterPath="$PROJECT_DIR$/Promise/html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js总结/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js总结/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/moon.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/moon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/mvvem.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/mvvem.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,109 +36,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack总结/webpack.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="619">
-                <caret line="88" selection-start-line="88" selection-end-line="88" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/mvvem.html">
+        <entry file="file://$PROJECT_DIR$/zepto/zepto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vue/moon.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+            <state relative-caret-position="1564">
+              <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
               <folding>
-                <element signature="n#Compiler#0" />
-                <element signature="e#1733#2427#0" />
-                <element signature="n#Observer#0" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#31682#32438#0" />
+                <element signature="e#37996#38669#0" />
+                <element signature="e#45499#45959#0" />
+                <element signature="e#57785#58381#0" />
+                <element signature="e#58946#60640#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/vue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js总结/node元素操作api/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js总结/前端知识重构/js基本类型转换.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js总结/DOM操作.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1428">
-                <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack总结/wenpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack总结/js组件打包.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Promise/html.html">
+        <entry file="file://$PROJECT_DIR$/zepto/Util/dom.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/_.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2975">
+              <caret line="178" column="33" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/Util/isType.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/Util/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zepto/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-247">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zepto/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99501">
+              <caret line="6108" column="30" lean-forward="true" selection-start-line="6108" selection-start-column="30" selection-end-line="6108" selection-end-column="30" />
+              <folding>
+                <element signature="e#392#1151#0" />
+                <element signature="e#1327#1408#0" />
+                <element signature="e#5034#7296#0" />
+                <element signature="e#7349#9768#0" />
+                <element signature="e#15196#15279#0" />
+                <element signature="e#121838#122644#0" />
+                <element signature="e#122695#123091#0" />
+                <element signature="e#148281#148419#0" />
+                <element signature="e#148461#148506#0" />
+                <element signature="e#149413#150974#0" />
+                <element signature="e#151027#151070#0" />
+                <element signature="e#151230#151412#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -145,36 +128,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TRY_CATCH_ERROR</find>
-      <find>setScheduler</find>
-      <find>scheduleFlush</find>
-      <find>customSchedulerFn</find>
-      <find>asap</find>
-      <find>function resolve</find>
-      <find>getrh</find>
-      <find>resolve</find>
-      <find>function then</find>
-      <find>function res</find>
-      <find>invokeCallback</find>
-      <find>copyQueue</find>
-      <find>visitedCopyQueue</find>
-      <find>visitedQueue</find>
-      <find>axios</find>
-      <find>deQueue</find>
-      <find>Rear</find>
-      <find>MyCircularQueue</find>
-      <find>enQueue</find>
-      <find>isFull</find>
-      <find>addAtHead</find>
-      <find>addAtTail</find>
-      <find>addAtIndex</find>
-      <find>ES6Promise</find>
-      <find>factory</find>
-      <find>Promise$1</find>
-      <find>initializePromise</find>
-      <find>/ ^ i</find>
-      <find>console.log</find>
-      <find>compilerElement</find>
+      <find>css</find>
+      <find>camelize</find>
+      <find>maybeAddPx</find>
+      <find>uniq</find>
+      <find>filtered</find>
+      <find>filter</find>
+      <find>map</find>
+      <find>[ab]?/1</find>
+      <find>([ab])\1</find>
+      <find>([abc])\1</find>
+      <find>([a1])\1</find>
+      <find>([fu])\1</find>
+      <find>([a-z])</find>
+      <find>([a-z])\1</find>
+      <find>([a-z])\1\1</find>
+      <find>([a-z])\1\1\1</find>
+      <find>(?:a)</find>
+      <find>(?:aa)</find>
+      <find>(aa){1,2}</find>
+      <find>(?:aa){1,2}</find>
+      <find>([af])\1</find>
+      <find>([a])([f])\1</find>
+      <find>concat</find>
+      <find>flat</find>
+      <find>parent</find>
+      <find>&lt;.?+&gt;</find>
+      <find>&lt;.+&gt;\b</find>
+      <find>&lt;[^&gt;]&gt;</find>
+      <find>&lt;[p]+&gt;</find>
+      <find>&lt;[^&gt;]+&gt;</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -186,28 +169,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Js模式/寄生式继承/index.js" />
-        <option value="$PROJECT_DIR$/Js模式/外观模式/index.js" />
-        <option value="$PROJECT_DIR$/js总结/V8Garbage.md" />
-        <option value="$PROJECT_DIR$/Js模式/装饰者模式/index.js" />
-        <option value="$PROJECT_DIR$/Js模式/组合模式/index.html" />
-        <option value="$PROJECT_DIR$/Js模式/组合模式/index.js" />
-        <option value="$PROJECT_DIR$/js总结/js的字符类型转换.md" />
-        <option value="$PROJECT_DIR$/js总结/前端知识重构.md" />
-        <option value="$PROJECT_DIR$/js总结/index.html" />
         <option value="$PROJECT_DIR$/../dome/js.js" />
         <option value="$PROJECT_DIR$/Js模式/模版设计模式/index.js" />
         <option value="$PROJECT_DIR$/Js模式/享元模式/index.js" />
         <option value="$PROJECT_DIR$/Js模式/状态模式/index.html" />
         <option value="$PROJECT_DIR$/Js模式/状态模式/index.js" />
-        <option value="$PROJECT_DIR$/Promise/html.html" />
         <option value="$PROJECT_DIR$/Promise/Promise.js" />
         <option value="$PROJECT_DIR$/webpack总结/wenpack.config.js" />
         <option value="$PROJECT_DIR$/js总结/typeScript总结/index.md" />
         <option value="$PROJECT_DIR$/JS运用/统计字符/index.js" />
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.html" />
         <option value="$PROJECT_DIR$/JS运用/输出所有的排序可能/index.js" />
-        <option value="$PROJECT_DIR$/JS运用/js分段加载/index.html" />
         <option value="$PROJECT_DIR$/systemOptimization/index.md" />
         <option value="$PROJECT_DIR$/systemOptimization/segmentloading.md" />
         <option value="$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md" />
@@ -235,15 +207,32 @@
         <option value="$PROJECT_DIR$/webpack总结/js组件打包.js" />
         <option value="$PROJECT_DIR$/webpack总结/webpack.md" />
         <option value="$PROJECT_DIR$/vue/vue.md" />
+        <option value="$PROJECT_DIR$/js总结/index.html" />
         <option value="$PROJECT_DIR$/vue/mvvem.html" />
         <option value="$PROJECT_DIR$/vue/moon.js" />
+        <option value="$PROJECT_DIR$/JS运用/async await/index.js" />
+        <option value="$PROJECT_DIR$/Promise/html.html" />
+        <option value="$PROJECT_DIR$/zepto/_.js" />
+        <option value="$PROJECT_DIR$/zepto/Util/isType.js" />
+        <option value="$PROJECT_DIR$/zepto/index.js" />
+        <option value="$PROJECT_DIR$/JS运用/js分段加载/index.js" />
+        <option value="$PROJECT_DIR$/JS运用/js分段加载/index.html" />
+        <option value="$PROJECT_DIR$/zepto/zepto.js" />
+        <option value="$PROJECT_DIR$/zepto/Util/index.js" />
+        <option value="$PROJECT_DIR$/zepto/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="795" />
+    <option name="height" value="796" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,12 +250,18 @@
             <path>
               <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
-              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="zepto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
-              <item name="Vue组件" type="462c0819:PsiDirectoryNode" />
+              <item name="zepto" type="462c0819:PsiDirectoryNode" />
+              <item name="Util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpecialPromotion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpecialPromotion" type="462c0819:PsiDirectoryNode" />
+              <item name="模版引擎" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,6 +275,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.14.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Vue组件/froms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -289,20 +285,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Vue组件/froms" />
-      <recent name="$PROJECT_DIR$/JS运用/dom的操作" />
-      <recent name="$PROJECT_DIR$/JS运用/输出所有的排序可能" />
-      <recent name="$PROJECT_DIR$/JS运用/计数" />
-      <recent name="$PROJECT_DIR$/JS运用/网址获取参数" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js总结/fromComponent" />
       <recent name="$PROJECT_DIR$/JS运用/achieveCall" />
       <recent name="$PROJECT_DIR$/js总结/前端项目知识重构" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zepto" />
+      <recent name="$PROJECT_DIR$/Vue组件/froms" />
+      <recent name="$PROJECT_DIR$/JS运用/dom的操作" />
+      <recent name="$PROJECT_DIR$/JS运用/输出所有的排序可能" />
+      <recent name="$PROJECT_DIR$/JS运用/计数" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,15 +474,22 @@
       <workItem from="1566460979751" duration="13161000" />
       <workItem from="1566787889043" duration="217000" />
       <workItem from="1566949351391" duration="2999000" />
+      <workItem from="1566959965964" duration="12770000" />
+      <workItem from="1566980394294" duration="4003000" />
+      <workItem from="1567148984989" duration="29240000" />
+      <workItem from="1567735272743" duration="165000" />
+      <workItem from="1567735925673" duration="25982000" />
+      <workItem from="1568199084928" duration="5151000" />
+      <workItem from="1568794027859" duration="2730000" />
+      <workItem from="1568859635929" duration="12194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403996000" />
+    <option name="totallyTimeSpent" value="496231000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="795" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49788433" visible="true" weight="0.13601127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -540,128 +544,163 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/vue/moon.js</url>
-          <line>62</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
+          <line>2</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/vue/moon.js</url>
+          <line>191</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/vue/moon.js</url>
+          <line>156</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/vue/moon.js</url>
+          <line>157</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>313</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>3451</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>4028</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>9932</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>9868</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>8716</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>8559</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>2935</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>2878</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>160</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/zepto.js</url>
+          <line>188</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>2837</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>3491</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>3625</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>3670</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>4451</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>5350</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>5052</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>5602</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/zepto.js</url>
+          <line>846</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/zepto.js</url>
+          <line>942</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/index.js</url>
+          <line>6881</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/zepto/zepto.js</url>
+          <line>716</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS运用/输出所有的排序可能/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/js分段加载/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js模式/模版设计模式/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemOptimization/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemOptimization/segmentloading.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js模式/状态模式/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/保留最大数/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/MobileTerminal/StudyMobileterminal.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-547">
-            <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue组件/froms/hbSearch.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" selection-start-line="27" selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="144" column="51" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="51" />
-            <folding>
-              <element signature="e#9#18#0" />
-              <element signature="e#298#356#0" />
-              <element signature="e#635#652#0" />
-              <element signature="e#1096#1116#0" />
-              <element signature="e#1157#1165#0" />
-              <element signature="e#1210#1223#0" />
-              <element signature="e#1338#1672#0" />
-              <element signature="e#1674#1687#0" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dome/index.html" />
-    <entry file="file://$PROJECT_DIR$/js总结/vueSources/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2618">
-            <caret line="154" column="57" selection-start-line="154" selection-start-column="57" selection-end-line="154" selection-end-column="57" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../hellonBike/bpm/src/api/stockBom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hellonBike/bpm/src/api/stockBom.js" />
     <entry file="file://$PROJECT_DIR$/JS运用/寻找数组的中心索引/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -673,13 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1921">
           <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="115" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/achieveCall/call.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -696,13 +728,6 @@
     <entry file="file://$PROJECT_DIR$/Vue组件/notification/func-notification.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/js分段加载/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js总结/element.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -710,13 +735,6 @@
             <caret line="142" selection-start-line="142" selection-end-line="142" selection-end-column="18" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="15" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -746,16 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
           <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="605">
-            <caret line="211" selection-start-line="211" selection-end-line="211" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -793,13 +801,6 @@
     <entry file="file://$PROJECT_DIR$/JS运用/debounce函数/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS运用/debounce函数/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS运用/throttle函数/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -821,51 +822,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js总结/jsApi/index.md">
+    <entry file="file://$PROJECT_DIR$/webpack总结/webpack.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="799">
-            <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/node.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4794">
-            <caret line="282" selection-start-line="282" selection-end-line="282" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13430">
-          <caret line="865" column="33" selection-start-line="865" selection-start-column="25" selection-end-line="865" selection-end-column="33" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#327#436#0" />
-            <element signature="e#465#512#0" />
-            <element signature="e#897#1400#0" />
-            <element signature="e#1441#1488#0" />
-            <element signature="e#1519#1549#0" />
-            <element signature="e#2424#2604#0" />
-            <element signature="e#2641#2936#0" />
-            <element signature="e#2985#3166#0" />
-            <element signature="e#3197#3481#0" />
-            <element signature="e#4634#5161#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+          <first_editor relative-caret-position="1496">
+            <caret line="88" selection-start-line="88" selection-end-line="88" />
           </first_editor>
           <second_editor />
         </state>
@@ -882,6 +843,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/前端知识重构/js基本类型转换.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="391">
@@ -890,7 +852,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/js总结/DOM操作.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -902,51 +863,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack总结/wenpack.config.js">
+    <entry file="file://$PROJECT_DIR$/JS运用/debounce函数/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack总结/js组件打包.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Promise/html.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/js总结/fromComponent/QQ20190520-162639-HD.gif">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/mvvem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack总结/webpack.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="619">
-            <caret line="88" selection-start-line="88" selection-end-line="88" />
-          </first_editor>
-          <second_editor />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/moon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        <state relative-caret-position="1020">
+          <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
           <folding>
             <element signature="n#Compiler#0" />
-            <element signature="e#1733#2427#0" />
             <element signature="n#Observer#0" />
+            <element signature="n#Watcher#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/async await/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/achieveCall/call.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="35" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/fromComponent/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3587">
+            <caret line="211" selection-start-line="211" selection-end-line="211" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/jsApi/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="799">
+            <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../componentTemplatEl/src/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#!!block;n#hasOwn#0" />
+            <element signature="n#!!block;n#extend#0" />
+            <element signature="n#!!block;n#toObject#0" />
+            <element signature="e#482#809#0" />
+            <element signature="n#!!block;n#getPropByPath#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack总结/wenpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1848">
+          <caret line="118" column="30" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2424#2604#0" />
+            <element signature="e#2641#2936#0" />
+            <element signature="e#2985#3166#0" />
+            <element signature="e#3197#3481#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/node.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="619">
+            <caret line="282" selection-start-line="282" selection-end-line="282" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promise/html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack总结/js组件打包.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js总结/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/js分段加载/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS运用/js分段加载/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="2778" column="4" selection-start-line="2778" selection-start-column="4" selection-end-line="2778" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/Util/dom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/_.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="178" column="33" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/Util/isType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/Util/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#31682#32438#0" />
+            <element signature="e#37996#38669#0" />
+            <element signature="e#45499#45959#0" />
+            <element signature="e#57785#58381#0" />
+            <element signature="e#58946#60640#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99501">
+          <caret line="6108" column="30" lean-forward="true" selection-start-line="6108" selection-start-column="30" selection-end-line="6108" selection-end-column="30" />
+          <folding>
+            <element signature="e#392#1151#0" />
+            <element signature="e#1327#1408#0" />
+            <element signature="e#5034#7296#0" />
+            <element signature="e#7349#9768#0" />
+            <element signature="e#15196#15279#0" />
+            <element signature="e#121838#122644#0" />
+            <element signature="e#122695#123091#0" />
+            <element signature="e#148281#148419#0" />
+            <element signature="e#148461#148506#0" />
+            <element signature="e#149413#150974#0" />
+            <element signature="e#151027#151070#0" />
+            <element signature="e#151230#151412#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zepto/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
