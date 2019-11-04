@@ -56,7 +56,6 @@ UglifyjsWebpackPlugin 压缩Js
 ZipWebpackPlugin 将打包出的资源生成一个zip包
 
 
-
 <h3>webpack 中的watch</h3>
 ```js
 {
@@ -78,9 +77,7 @@ ZipWebpackPlugin 将打包出的资源生成一个zip包
 OptimizeCSSAssetsPlugin // CSS压缩文件
 
 压缩Js插件
-
 terset-webpack-plugin 
-
 ```js
 new TersetPlugin({
   include: /\.min\.js&\/
