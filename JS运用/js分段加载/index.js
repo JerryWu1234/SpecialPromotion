@@ -18,9 +18,8 @@ function spliceArray(data) {
   return list
 }
 function createDom(item) {
-  let node = document.createElement('LI')
-  let textnode = document.createTextNode(`<li>${item}</li>`)
-  node.appendChild(textnode)
+  let node = document.createElement('div')
+  node.textContent = (`<li >${item}</li>`)
   return node
 }
 function delayfunc(item, index) {

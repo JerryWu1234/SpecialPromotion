@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<script src="index.js"></script>
+<script>
+
+    const data = new Array(300000).fill(`随机数${(Math.random() * 10).toFixed(2)}`)
+    initSync(data)
+    function splitArray(data, pageSize = 10) {
+        data.forEach((item, index) => {
+            let val = index % pageSize
+            if (val === 0) {
+                load(data.slice(index - 10, index))
+            }
+        })
+    }
+
+    function load(sliceData) {
+        window.requestAnimationFrame(()=>{
+            createD(sliceData)
+        })
+
+    }
+
+    function createD(array) {
+        const VNode = document.createDocumentFragment()
+       return array.map((item, index) => {
+           return apppendDom(VNode, item)
+        })
+
+    }
+
+    function apppendDom(VNode, item) {
+        const targetName = document.createElement("div")
+        targetName.textContent = item
+        VNode.appendChild(targetName)
+        return VNode
+    }
+
+    splitArray(data)
+    // let root = document.getElementById("root");
+    // const data = new Array(333300).fill(`随机数${(Math.random()*10).toFixed(2)}`)
+    // function initSync(data){
+    //     const groups = spliceArray(data)
+    //     groups.forEach((item, index) =>{
+    //         delayfunc(item, index)
+    //     })
+    // }
+    // function spliceArray(data){
+    //     let [result, list] = [null,[]]
+    //     for(let i = 0; i < data.length; i++){
+    //         if(i % 20 === 0) {
+    //             result !== null && list.push(result);
+    //             result = [];
+    //         }
+    //         result.push([data[i]])
+    //     }
+    //     return list
+    // }
+    // function createDom (item){
+    //     let node = document.createElement("LI");
+    //     let textnode = document.createTextNode(`<li>${item}</li>`);
+    //     node.appendChild(textnode)
+    //     return node
+    // }
+    // function delayfunc(item, index){
+    //     for(let i = 0; i < item.length; i++){
+    //         setTimeout(function(){
+    //             root.appendChild(createDom(item));
+    //         },1)
+    //     }
+    // }
+    // initSync(data)
+</script>
+</html>
